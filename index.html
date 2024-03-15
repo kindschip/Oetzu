@@ -41,24 +41,28 @@
   <script src="flutter.js" defer></script>
 </head>
 <body>
-  <script>
-    window.addEventListener('load', function(ev) {
-      // Download main.dart.js
-      _flutter.loader.loadEntrypoint({
-        serviceWorker: {
-          serviceWorkerVersion: serviceWorkerVersion,
-        },
-        onEntrypointLoaded: function(engineInitializer) {
-          engineInitializer.initializeEngine().then(function(appRunner) {
-            appRunner.runApp();
-          });
-        }
+  <div id="scriptContainer" style="width: 100%; height: 90%; overflow: auto;">
+    <script>
+      window.addEventListener('load', function(ev) {
+        // Download main.dart.js
+        _flutter.loader.loadEntrypoint({
+          serviceWorker: {
+            serviceWorkerVersion: serviceWorkerVersion,
+          },
+          onEntrypointLoaded: function(engineInitializer) {
+            engineInitializer.initializeEngine().then(function(appRunner) {
+              appRunner.runApp();
+            });
+          }
+        });
       });
-    });
-  </script>
-   <a href="https://apps.apple.com/us/app/oetzu/id6478601513?itsct=apps_box_badge&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;">
-    <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1709769600" alt="Download on the App Store" style="border-radius: 13px; width: 250px; height: 83px;">
-  </a>
+    </script>
+  </div>
+  <div id="bannerContainer" style="width: 100%; height: 10%; position: fixed; bottom: 0; text-align: center;">
+    <a href="https://apps.apple.com/us/app/oetzu/id6478601513?itsct=apps_box_badge&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;">
+      <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1709769600" alt="Download on the App Store" style="border-radius: 13px; width: 250px; height: 83px;">
+    </a>
+  </div>
 </body>
  
 </html>
