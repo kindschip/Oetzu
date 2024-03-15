@@ -1,0 +1,12 @@
+pl.ukaszapps.soundpool-jetified-annotation-experimental-1.1.0-0 /Users/paulkindschi/.gradle/caches/transforms-3/4529cd9db265d21866bb643ee8d397a7/transformed/jetified-annotation-experimental-1.1.0/res
+pl.ukaszapps.soundpool-core-1.6.0-1 /Users/paulkindschi/.gradle/caches/transforms-3/77b4a06127fb36c7d77b9d617d08902a/transformed/core-1.6.0/res
+pl.ukaszapps.soundpool-jetified-window-1.0.0-beta04-2 /Users/paulkindschi/.gradle/caches/transforms-3/87da41db39e09187ba992a68ecbb6aeb/transformed/jetified-window-1.0.0-beta04/res
+pl.ukaszapps.soundpool-jetified-window-java-1.0.0-beta04-3 /Users/paulkindschi/.gradle/caches/transforms-3/ae96c778c3807ec740afeaba5f047214/transformed/jetified-window-java-1.0.0-beta04/res
+pl.ukaszapps.soundpool-main-4 /Users/paulkindschi/.pub-cache/hosted/pub.dev/soundpool-2.4.1/android/src/main/res
+pl.ukaszapps.soundpool-release-5 /Users/paulkindschi/.pub-cache/hosted/pub.dev/soundpool-2.4.1/android/src/release/res
+pl.ukaszapps.soundpool-pngs-6 /Users/paulkindschi/pauls flutter/oetzu/build/soundpool/generated/res/pngs/release
+pl.ukaszapps.soundpool-resValues-7 /Users/paulkindschi/pauls flutter/oetzu/build/soundpool/generated/res/resValues/release
+pl.ukaszapps.soundpool-rs-8 /Users/paulkindschi/pauls flutter/oetzu/build/soundpool/generated/res/rs/release
+pl.ukaszapps.soundpool-mergeReleaseResources-9 /Users/paulkindschi/pauls flutter/oetzu/build/soundpool/intermediates/incremental/release/mergeReleaseResources/merged.dir
+pl.ukaszapps.soundpool-mergeReleaseResources-10 /Users/paulkindschi/pauls flutter/oetzu/build/soundpool/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+pl.ukaszapps.soundpool-merged_res-11 /Users/paulkindschi/pauls flutter/oetzu/build/soundpool/intermediates/merged_res/release

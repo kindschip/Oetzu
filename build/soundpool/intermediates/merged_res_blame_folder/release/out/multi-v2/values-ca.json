@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "pl.ukaszapps.soundpool-merged_res-10:/values-ca/values-ca.xml",
+            "map": [
+                {
+                    "source": "/Users/paulkindschi/.gradle/caches/transforms-3/77b4a06127fb36c7d77b9d617d08902a/transformed/core-1.6.0/res/values-ca/values-ca.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "pl.ukaszapps.soundpool-mergeReleaseResources-8:/values-ca/values-ca.xml",
+            "map": [
+                {
+                    "source": "/Users/paulkindschi/.gradle/caches/transforms-3/77b4a06127fb36c7d77b9d617d08902a/transformed/core-1.6.0/res/values-ca/values-ca.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        }
+    ]
+}

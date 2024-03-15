@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "pl.ukaszapps.soundpool-merged_res-10:/drawable/notification_tile_bg.xml",
+        "source": "pl.ukaszapps.soundpool-core-1.6.0-1:/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "pl.ukaszapps.soundpool-merged_res-10:/drawable/notification_bg_low.xml",
+        "source": "pl.ukaszapps.soundpool-core-1.6.0-1:/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "pl.ukaszapps.soundpool-merged_res-10:/drawable/notification_icon_background.xml",
+        "source": "pl.ukaszapps.soundpool-core-1.6.0-1:/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "pl.ukaszapps.soundpool-merged_res-10:/drawable/notification_bg.xml",
+        "source": "pl.ukaszapps.soundpool-core-1.6.0-1:/drawable/notification_bg.xml"
+    }
+]

@@ -1,0 +1,35 @@
+io.flutter.plugins.googlemobileads.google_mobile_ads-jetified-play-services-basement-18.2.0-0 /Users/paulkindschi/.gradle/caches/transforms-3/04043c2d558b238081f552f5737568ee/transformed/jetified-play-services-basement-18.2.0/res
+io.flutter.plugins.googlemobileads.google_mobile_ads-jetified-ads-adservices-java-1.0.0-beta05-1 /Users/paulkindschi/.gradle/caches/transforms-3/0e89b257ad1b5b2583d4bbde9834ead8/transformed/jetified-ads-adservices-java-1.0.0-beta05/res
+io.flutter.plugins.googlemobileads.google_mobile_ads-jetified-lifecycle-service-2.6.2-2 /Users/paulkindschi/.gradle/caches/transforms-3/0fd8b4aae8e36e84458d3ad0e334daf0/transformed/jetified-lifecycle-service-2.6.2/res
+io.flutter.plugins.googlemobileads.google_mobile_ads-webkit-1.7.0-3 /Users/paulkindschi/.gradle/caches/transforms-3/1d68ab390b83c80bf60ed42283f3a2a9/transformed/webkit-1.7.0/res
+io.flutter.plugins.googlemobileads.google_mobile_ads-core-1.8.0-4 /Users/paulkindschi/.gradle/caches/transforms-3/2c53e216d32933f1ec8d3347f9ca7f14/transformed/core-1.8.0/res
+io.flutter.plugins.googlemobileads.google_mobile_ads-lifecycle-livedata-core-2.6.2-5 /Users/paulkindschi/.gradle/caches/transforms-3/379924732776ef90ad4a65ce3ad2a2a2/transformed/lifecycle-livedata-core-2.6.2/res
+io.flutter.plugins.googlemobileads.google_mobile_ads-core-runtime-2.2.0-6 /Users/paulkindschi/.gradle/caches/transforms-3/3fc4f437ac585f77afa232a7901fd7ca/transformed/core-runtime-2.2.0/res
+io.flutter.plugins.googlemobileads.google_mobile_ads-jetified-annotation-experimental-1.1.0-7 /Users/paulkindschi/.gradle/caches/transforms-3/4529cd9db265d21866bb643ee8d397a7/transformed/jetified-annotation-experimental-1.1.0/res
+io.flutter.plugins.googlemobileads.google_mobile_ads-jetified-ads-adservices-1.0.0-beta05-8 /Users/paulkindschi/.gradle/caches/transforms-3/481892d44f287f72dbac3fc60244fb2e/transformed/jetified-ads-adservices-1.0.0-beta05/res
+io.flutter.plugins.googlemobileads.google_mobile_ads-browser-1.4.0-9 /Users/paulkindschi/.gradle/caches/transforms-3/50bf694f6c2ba05b2adb8db4216573af/transformed/browser-1.4.0/res
+io.flutter.plugins.googlemobileads.google_mobile_ads-jetified-profileinstaller-1.3.0-10 /Users/paulkindschi/.gradle/caches/transforms-3/52e5b6b5ca0f08ab401857b30591d2a0/transformed/jetified-profileinstaller-1.3.0/res
+io.flutter.plugins.googlemobileads.google_mobile_ads-jetified-core-ktx-1.8.0-11 /Users/paulkindschi/.gradle/caches/transforms-3/541dbe2746d2384172969681ff81471a/transformed/jetified-core-ktx-1.8.0/res
+io.flutter.plugins.googlemobileads.google_mobile_ads-lifecycle-runtime-2.6.2-12 /Users/paulkindschi/.gradle/caches/transforms-3/6c61f48e5f9e850fc4c5b4704ec23f50/transformed/lifecycle-runtime-2.6.2/res
+io.flutter.plugins.googlemobileads.google_mobile_ads-lifecycle-livedata-2.6.2-13 /Users/paulkindschi/.gradle/caches/transforms-3/7883e2f49040a15f9e2f0676167abd9d/transformed/lifecycle-livedata-2.6.2/res
+io.flutter.plugins.googlemobileads.google_mobile_ads-jetified-appcompat-resources-1.2.0-14 /Users/paulkindschi/.gradle/caches/transforms-3/823355106d13b7af188cbfa77f3e4be2/transformed/jetified-appcompat-resources-1.2.0/res
+io.flutter.plugins.googlemobileads.google_mobile_ads-jetified-window-1.0.0-beta04-15 /Users/paulkindschi/.gradle/caches/transforms-3/87da41db39e09187ba992a68ecbb6aeb/transformed/jetified-window-1.0.0-beta04/res
+io.flutter.plugins.googlemobileads.google_mobile_ads-jetified-play-services-base-18.0.0-16 /Users/paulkindschi/.gradle/caches/transforms-3/9b1d61e800efbea25322e53e89089d9f/transformed/jetified-play-services-base-18.0.0/res
+io.flutter.plugins.googlemobileads.google_mobile_ads-jetified-window-java-1.0.0-beta04-17 /Users/paulkindschi/.gradle/caches/transforms-3/ae96c778c3807ec740afeaba5f047214/transformed/jetified-window-java-1.0.0-beta04/res
+io.flutter.plugins.googlemobileads.google_mobile_ads-lifecycle-viewmodel-2.6.2-18 /Users/paulkindschi/.gradle/caches/transforms-3/b42b4ce6f2c87d56cf6f0a1bf5e8dd3a/transformed/lifecycle-viewmodel-2.6.2/res
+io.flutter.plugins.googlemobileads.google_mobile_ads-jetified-startup-runtime-1.1.1-19 /Users/paulkindschi/.gradle/caches/transforms-3/b689449951ac718ab5f87b749355e157/transformed/jetified-startup-runtime-1.1.1/res
+io.flutter.plugins.googlemobileads.google_mobile_ads-jetified-lifecycle-process-2.6.2-20 /Users/paulkindschi/.gradle/caches/transforms-3/c445ef894fd2475811e54a0edd9e9da7/transformed/jetified-lifecycle-process-2.6.2/res
+io.flutter.plugins.googlemobileads.google_mobile_ads-work-runtime-2.7.0-21 /Users/paulkindschi/.gradle/caches/transforms-3/cce52f8753c7932edead92f0f35b1ffe/transformed/work-runtime-2.7.0/res
+io.flutter.plugins.googlemobileads.google_mobile_ads-jetified-play-services-ads-22.5.0-22 /Users/paulkindschi/.gradle/caches/transforms-3/d7a050cae1549ec31632e8259bec936c/transformed/jetified-play-services-ads-22.5.0/res
+io.flutter.plugins.googlemobileads.google_mobile_ads-jetified-play-services-ads-lite-22.5.0-23 /Users/paulkindschi/.gradle/caches/transforms-3/ed637e88ef493b2cc865c8942aa3d665/transformed/jetified-play-services-ads-lite-22.5.0/res
+io.flutter.plugins.googlemobileads.google_mobile_ads-appcompat-1.2.0-24 /Users/paulkindschi/.gradle/caches/transforms-3/f37dcfc27bbad21091b9d2b2b7707f3c/transformed/appcompat-1.2.0/res
+io.flutter.plugins.googlemobileads.google_mobile_ads-constraintlayout-2.1.4-25 /Users/paulkindschi/.gradle/caches/transforms-3/f6777bb32c5be4fb3b4a2292ec2570fd/transformed/constraintlayout-2.1.4/res
+io.flutter.plugins.googlemobileads.google_mobile_ads-main-26 /Users/paulkindschi/.pub-cache/hosted/pub.dev/google_mobile_ads-4.0.0/android/src/main/res
+io.flutter.plugins.googlemobileads.google_mobile_ads-release-27 /Users/paulkindschi/.pub-cache/hosted/pub.dev/google_mobile_ads-4.0.0/android/src/release/res
+io.flutter.plugins.googlemobileads.google_mobile_ads-pngs-28 /Users/paulkindschi/pauls flutter/oetzu/build/google_mobile_ads/generated/res/pngs/release
+io.flutter.plugins.googlemobileads.google_mobile_ads-resValues-29 /Users/paulkindschi/pauls flutter/oetzu/build/google_mobile_ads/generated/res/resValues/release
+io.flutter.plugins.googlemobileads.google_mobile_ads-rs-30 /Users/paulkindschi/pauls flutter/oetzu/build/google_mobile_ads/generated/res/rs/release
+io.flutter.plugins.googlemobileads.google_mobile_ads-mergeReleaseResources-31 /Users/paulkindschi/pauls flutter/oetzu/build/google_mobile_ads/intermediates/incremental/release/mergeReleaseResources/merged.dir
+io.flutter.plugins.googlemobileads.google_mobile_ads-mergeReleaseResources-32 /Users/paulkindschi/pauls flutter/oetzu/build/google_mobile_ads/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+io.flutter.plugins.googlemobileads.google_mobile_ads-merged_res-33 /Users/paulkindschi/pauls flutter/oetzu/build/google_mobile_ads/intermediates/merged_res/release
+io.flutter.plugins.googlemobileads.google_mobile_ads-packaged_res-34 /Users/paulkindschi/pauls flutter/oetzu/build/webview_flutter_android/intermediates/packaged_res/release

@@ -1,0 +1,15 @@
+com.ryanheise.audio_session-jetified-media2-common-1.2.1-0 /Users/paulkindschi/.gradle/caches/transforms-3/351a0554c0b45ab6a36c3966e5eaf6d4/transformed/jetified-media2-common-1.2.1/res
+com.ryanheise.audio_session-jetified-annotation-experimental-1.1.0-1 /Users/paulkindschi/.gradle/caches/transforms-3/4529cd9db265d21866bb643ee8d397a7/transformed/jetified-annotation-experimental-1.1.0/res
+com.ryanheise.audio_session-core-1.6.0-2 /Users/paulkindschi/.gradle/caches/transforms-3/77b4a06127fb36c7d77b9d617d08902a/transformed/core-1.6.0/res
+com.ryanheise.audio_session-jetified-window-1.0.0-beta04-3 /Users/paulkindschi/.gradle/caches/transforms-3/87da41db39e09187ba992a68ecbb6aeb/transformed/jetified-window-1.0.0-beta04/res
+com.ryanheise.audio_session-jetified-window-java-1.0.0-beta04-4 /Users/paulkindschi/.gradle/caches/transforms-3/ae96c778c3807ec740afeaba5f047214/transformed/jetified-window-java-1.0.0-beta04/res
+com.ryanheise.audio_session-jetified-media2-session-1.2.1-5 /Users/paulkindschi/.gradle/caches/transforms-3/cb8e94b959fbe467b1577bec3d0fc97e/transformed/jetified-media2-session-1.2.1/res
+com.ryanheise.audio_session-media-1.4.1-6 /Users/paulkindschi/.gradle/caches/transforms-3/d88a5a148ebe98ece152eee11ebf7502/transformed/media-1.4.1/res
+com.ryanheise.audio_session-main-7 /Users/paulkindschi/.pub-cache/hosted/pub.dev/audio_session-0.1.18/android/src/main/res
+com.ryanheise.audio_session-release-8 /Users/paulkindschi/.pub-cache/hosted/pub.dev/audio_session-0.1.18/android/src/release/res
+com.ryanheise.audio_session-pngs-9 /Users/paulkindschi/pauls flutter/oetzu/build/audio_session/generated/res/pngs/release
+com.ryanheise.audio_session-resValues-10 /Users/paulkindschi/pauls flutter/oetzu/build/audio_session/generated/res/resValues/release
+com.ryanheise.audio_session-rs-11 /Users/paulkindschi/pauls flutter/oetzu/build/audio_session/generated/res/rs/release
+com.ryanheise.audio_session-mergeReleaseResources-12 /Users/paulkindschi/pauls flutter/oetzu/build/audio_session/intermediates/incremental/release/mergeReleaseResources/merged.dir
+com.ryanheise.audio_session-mergeReleaseResources-13 /Users/paulkindschi/pauls flutter/oetzu/build/audio_session/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+com.ryanheise.audio_session-merged_res-14 /Users/paulkindschi/pauls flutter/oetzu/build/audio_session/intermediates/merged_res/release
