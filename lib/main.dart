@@ -14,6 +14,8 @@ import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:soundpool/soundpool.dart';
 import 'package:audio_session/audio_session.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:url_launcher/url_launcher.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 
 GlobalKey<NavigatorState> navigatorKey = GlobalKey<NavigatorState>();
 
@@ -437,19 +439,19 @@ class _MyHomePageState extends State<MyHomePage> {
           children: (selectedIndex == 0)
               ? [
                   Expanded(
-                  flex: 2,
-                  child: Center(
-                    child: FittedBox(
-                      fit: BoxFit.scaleDown,
-                      child: Center(
-                        child: Text(
-                          definition2,
-                          style: TextStyle(fontSize: 30),
+                    flex: 2,
+                    child: Center(
+                      child: FittedBox(
+                        fit: BoxFit.scaleDown,
+                        child: Center(
+                          child: Text(
+                            definition2,
+                            style: TextStyle(fontSize: 30),
+                          ),
                         ),
                       ),
                     ),
                   ),
-                ),
                   //Expanded(child: AdWidget(ad: myBanner)),
                   Expanded(flex: 30, child: mainArea),
                 ]
@@ -604,6 +606,34 @@ class GeneratorPage extends StatelessWidget {
             ),
           ),
           SizedBox(height: 20),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              GestureDetector(
+                onTap: () {
+                  // Add the link to your app on the App Store
+                  launchUrl(Uri.parse(
+                      'https://apps.apple.com/us/app/oetzu/id6478601513?ign-itscg=30200&ign-itsct=apps_box_promote_link'));
+                },
+                child: SvgPicture.network(
+                  'https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg',
+                  height: 50,
+                ),
+              ),
+              SizedBox(width: 20),
+              GestureDetector(
+                onTap: () {
+                  // Add the link to your app on Google Play
+                  launchUrl(Uri.parse(
+                      'https://play.google.com/store/apps/details?id=com.paulsgames.oetzu'));
+                },
+                child: Image.asset(
+                  'assets/google-play-badge.png',
+                  height: 73,
+                ),
+              ),
+            ],
+          ),
         ],
       ),
     );

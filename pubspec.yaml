@@ -21,6 +21,8 @@ dependencies:
   soundpool: ^2.2.0
   audio_session: ^0.1.6
   shared_preferences: ^2.2.2
+  url_launcher: ^6.0.12
+  flutter_svg: ^0.22.0
 
 dev_dependencies:
   flutter_test:
@@ -36,7 +38,8 @@ flutter:
     - assets/soundBell.mp3
     - assets/soundBuzzer.mp3
     - assets/oetzuLogo.png
-
+    - assets/google-play-badge.png
+    
 flutter_icons:
   android: true
   ios: true
