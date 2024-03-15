@@ -14,11 +14,8 @@
     This is a placeholder for base href that will be replaced by the value of
     the `--base-href` argument provided to `flutter build`.
   -->
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8875711544323026"
-     crossorigin="anonymous"></script>
+  <base href="/">
 
-  
-  
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
   <meta name="description" content="A new Flutter project.">
@@ -37,37 +34,26 @@
 
   <script>
     // The value below is injected by flutter build, do not touch.
-    const serviceWorkerVersion = "3435737186";
+    const serviceWorkerVersion = "3007231215";
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
-
-  
 </head>
 <body>
-  <div id="scriptContainer" style="width: 100%; height: 90%; overflow: auto;">
-    <script>
-      window.addEventListener('load', function(ev) {
-        // Download main.dart.js
-        _flutter.loader.loadEntrypoint({
-          serviceWorker: {
-            serviceWorkerVersion: serviceWorkerVersion,
-          },
-          onEntrypointLoaded: function(engineInitializer) {
-            engineInitializer.initializeEngine().then(function(appRunner) {
-              appRunner.runApp();
-            });
-          }
-        });
+  <script>
+    window.addEventListener('load', function(ev) {
+      // Download main.dart.js
+      _flutter.loader.loadEntrypoint({
+        serviceWorker: {
+          serviceWorkerVersion: serviceWorkerVersion,
+        },
+        onEntrypointLoaded: function(engineInitializer) {
+          engineInitializer.initializeEngine().then(function(appRunner) {
+            appRunner.runApp();
+          });
+        }
       });
-    </script>
-  </div>
-  <div id="bannerContainer" style="width: 100%; height: 10%; position: fixed; bottom: 0; text-align: center;">
-    <a href="https://apps.apple.com/us/app/oetzu/id6478601513?itsct=apps_box_badge&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;">
-      <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1709769600" alt="Download on the App Store" style="border-radius: 13px; width: 250px; height: 83px;">
-    </a>
-  </div>
-  
+    });
+  </script>
 </body>
- 
 </html>
