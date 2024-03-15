@@ -1,4 +1,4 @@
-// ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables, use_build_context_synchronously, non_constant_identifier_names, library_private_types_in_public_api
+// ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables, use_build_context_synchronously, non_constant_identifier_names, library_private_types_in_public_api, avoid_web_libraries_in_flutter
 
 import 'dart:io';
 import 'package:auto_size_text/auto_size_text.dart';
@@ -16,6 +16,7 @@ import 'package:audio_session/audio_session.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'dart:html' as html;
 
 GlobalKey<NavigatorState> navigatorKey = GlobalKey<NavigatorState>();
 
@@ -611,9 +612,13 @@ class GeneratorPage extends StatelessWidget {
             children: [
               GestureDetector(
                 onTap: () {
-                  // Add the link to your app on the App Store
-                  launchUrl(Uri.parse(
-                      'https://apps.apple.com/us/app/oetzu/id6478601513?ign-itscg=30200&ign-itsct=apps_box_promote_link'));
+                  const url =
+                      'https://apps.apple.com/us/app/oetzu/id6478601513?ign-itscg=30200&ign-itsct=apps_box_promote_link';
+                  if (kIsWeb) {
+                    html.window.open(url, '_blank');
+                  } else {
+                    launchUrl(Uri.parse(url));
+                  }
                 },
                 child: SvgPicture.network(
                   'https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg',
@@ -623,9 +628,13 @@ class GeneratorPage extends StatelessWidget {
               SizedBox(width: 20),
               GestureDetector(
                 onTap: () {
-                  // Add the link to your app on Google Play
-                  launchUrl(Uri.parse(
-                      'https://play.google.com/store/apps/details?id=com.paulsgames.oetzu'));
+                  const url =
+                      'https://play.google.com/store/apps/details?id=com.paulsgames.oetzu';
+                  if (kIsWeb) {
+                    html.window.open(url, '_blank');
+                  } else {
+                    launchUrl(Uri.parse(url));
+                  }
                 },
                 child: Image.asset(
                   'assets/google-play-badge.png',
