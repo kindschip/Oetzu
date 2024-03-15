@@ -42,26 +42,7 @@
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
 
-  <style>
-    body {
-      display: flex !important;
-      justify-content: center !important;
-      align-items: center !important;
-      height: 100vh !important;
-      margin: 0 !important;
-      padding: 0 !important;
-      background: #fafafa !important;
-    }
-    body div#scriptContainer {
-      width: 80% !important; /* Set the width of your app to 80% of the body width */
-      height: 90% !important; /* Set the height of your app to 80% of the body height */
-    }
-    body div#bannerContainer {
-      width: 50% !important; /* Set the width of the banner to 50% of the body width */
-      margin-bottom: 20px !important; /* Add some space between the banner and the app */
-      height: 10% !important;   
-    } 
-  </style> 
+  
 </head>
 <body>
   <div id="scriptContainer" style="width: 100%; height: 90%; overflow: auto;">
@@ -86,16 +67,7 @@
       <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1709769600" alt="Download on the App Store" style="border-radius: 13px; width: 250px; height: 83px;">
     </a>
   </div>
-  <script>
-    window.onload = function() {
-    var appContainer = document.getElementById('scriptContainer');
-    appContainer.style.width = '80%';
-    appContainer.style.height = '90%';
-
-    var banner = document.getElementById('bannerContainer');
-    banner.style.width = '50%';
-    banner.style.height = '10%';};
-  </script>
+  
 </body>
  
 </html>
