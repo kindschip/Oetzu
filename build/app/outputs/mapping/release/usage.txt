@@ -4,16 +4,18 @@ _COROUTINE._CREATION
 android.support.customtabs.ICustomTabsCallback$Default
 android.support.customtabs.ICustomTabsCallback$Stub$Proxy
 android.support.customtabs.ICustomTabsCallback$Stub:
-    private static final java.lang.String DESCRIPTOR
     static final int TRANSACTION_extraCallback
     static final int TRANSACTION_extraCallbackWithResult
+    static final int TRANSACTION_onActivityResized
     static final int TRANSACTION_onMessageChannelReady
     static final int TRANSACTION_onNavigationEvent
     static final int TRANSACTION_onPostMessage
     static final int TRANSACTION_onRelationshipValidationResult
     public static android.support.customtabs.ICustomTabsCallback asInterface(android.os.IBinder)
-    public static android.support.customtabs.ICustomTabsCallback getDefaultImpl()
-    public static boolean setDefaultImpl(android.support.customtabs.ICustomTabsCallback)
+android.support.customtabs.ICustomTabsCallback$_Parcel:
+    public void <init>()
+android.support.customtabs.ICustomTabsCallback:
+    public static final java.lang.String DESCRIPTOR
 android.support.customtabs.ICustomTabsService$Default
 android.support.customtabs.ICustomTabsService$Stub$Proxy:
     public android.os.Bundle extraCommand(java.lang.String,android.os.Bundle)
@@ -26,7 +28,6 @@ android.support.customtabs.ICustomTabsService$Stub$Proxy:
     public boolean updateVisuals(android.support.customtabs.ICustomTabsCallback,android.os.Bundle)
     public boolean validateRelationship(android.support.customtabs.ICustomTabsCallback,int,android.net.Uri,android.os.Bundle)
 android.support.customtabs.ICustomTabsService$Stub:
-    private static final java.lang.String DESCRIPTOR
     static final int TRANSACTION_extraCommand
     static final int TRANSACTION_mayLaunchUrl
     static final int TRANSACTION_newSession
@@ -41,8 +42,12 @@ android.support.customtabs.ICustomTabsService$Stub:
     public void <init>()
     public android.os.IBinder asBinder()
     public boolean onTransact(int,android.os.Parcel,android.os.Parcel,int)
-    public static boolean setDefaultImpl(android.support.customtabs.ICustomTabsService)
+android.support.customtabs.ICustomTabsService$_Parcel:
+    public void <init>()
+    static synthetic java.lang.Object access$000(android.os.Parcel,android.os.Parcelable$Creator)
+    private static java.lang.Object readTypedObject(android.os.Parcel,android.os.Parcelable$Creator)
 android.support.customtabs.ICustomTabsService:
+    public static final java.lang.String DESCRIPTOR
     public abstract android.os.Bundle extraCommand(java.lang.String,android.os.Bundle)
     public abstract boolean mayLaunchUrl(android.support.customtabs.ICustomTabsCallback,android.net.Uri,android.os.Bundle,java.util.List)
     public abstract int postMessage(android.support.customtabs.ICustomTabsCallback,java.lang.String,android.os.Bundle)
@@ -54,18 +59,22 @@ android.support.customtabs.ICustomTabsService:
 android.support.customtabs.IPostMessageService$Default
 android.support.customtabs.IPostMessageService$Stub$Proxy
 android.support.customtabs.IPostMessageService$Stub
+android.support.customtabs.IPostMessageService$_Parcel
 android.support.customtabs.IPostMessageService
 android.support.customtabs.trusted.ITrustedWebActivityCallback$Default
 android.support.customtabs.trusted.ITrustedWebActivityCallback$Stub$Proxy
 android.support.customtabs.trusted.ITrustedWebActivityCallback$Stub
+android.support.customtabs.trusted.ITrustedWebActivityCallback$_Parcel
 android.support.customtabs.trusted.ITrustedWebActivityCallback
 android.support.customtabs.trusted.ITrustedWebActivityService$Default
 android.support.customtabs.trusted.ITrustedWebActivityService$Stub$Proxy
 android.support.customtabs.trusted.ITrustedWebActivityService$Stub
+android.support.customtabs.trusted.ITrustedWebActivityService$_Parcel
 android.support.customtabs.trusted.ITrustedWebActivityService
 android.support.v4.app.INotificationSideChannel$Default
 android.support.v4.app.INotificationSideChannel$Stub$Proxy
 android.support.v4.app.INotificationSideChannel$Stub
+android.support.v4.app.INotificationSideChannel$_Parcel
 android.support.v4.app.INotificationSideChannel
 android.support.v4.media.MediaBrowserCompat$Api21Impl
 android.support.v4.media.MediaBrowserCompat$CallbackHandler
@@ -700,14 +709,19 @@ android.support.v4.media.session.PlaybackStateCompat:
     public static int toKeyCode(long)
 android.support.v4.os.IResultReceiver$Default
 android.support.v4.os.IResultReceiver$Stub$Proxy:
-    public static android.support.v4.os.IResultReceiver sDefaultImpl
     public java.lang.String getInterfaceDescriptor()
     public void send(int,android.os.Bundle)
 android.support.v4.os.IResultReceiver$Stub:
-    private static final java.lang.String DESCRIPTOR
     static final int TRANSACTION_send
-    public static android.support.v4.os.IResultReceiver getDefaultImpl()
-    public static boolean setDefaultImpl(android.support.v4.os.IResultReceiver)
+android.support.v4.os.IResultReceiver$_Parcel:
+    public void <init>()
+    static synthetic void access$100(android.os.Parcel,android.os.Parcelable,int)
+    private static void writeTypedObject(android.os.Parcel,android.os.Parcelable,int)
+android.support.v4.os.IResultReceiver2$Default
+android.support.v4.os.IResultReceiver2$Stub$Proxy
+android.support.v4.os.IResultReceiver2$Stub
+android.support.v4.os.IResultReceiver2$_Parcel
+android.support.v4.os.IResultReceiver2
 android.support.v4.os.ResultReceiver:
     public void <init>(android.os.Handler)
     public void send(int,android.os.Bundle)
@@ -3157,10 +3171,11 @@ androidx.browser.customtabs.CustomTabsClient:
     public static boolean connectAndInitialize(android.content.Context,java.lang.String)
     private static android.app.PendingIntent createSessionId(android.content.Context,int)
     public android.os.Bundle extraCommand(java.lang.String,android.os.Bundle)
-    public static java.lang.String getPackageName(android.content.Context,java.util.List)
-    public static java.lang.String getPackageName(android.content.Context,java.util.List,boolean)
     public static androidx.browser.customtabs.CustomTabsSession$PendingSession newPendingSession(android.content.Context,androidx.browser.customtabs.CustomTabsCallback,int)
     public androidx.browser.customtabs.CustomTabsSession newSession(androidx.browser.customtabs.CustomTabsCallback,int)
+androidx.browser.customtabs.CustomTabsIntent$ActivityHeightResizeBehavior
+androidx.browser.customtabs.CustomTabsIntent$Api24Impl:
+    private void <init>()
 androidx.browser.customtabs.CustomTabsIntent$Builder:
     public androidx.browser.customtabs.CustomTabsIntent$Builder addDefaultShareMenuItem()
     public androidx.browser.customtabs.CustomTabsIntent$Builder addMenuItem(java.lang.String,android.app.PendingIntent)
@@ -3169,11 +3184,14 @@ androidx.browser.customtabs.CustomTabsIntent$Builder:
     public androidx.browser.customtabs.CustomTabsIntent$Builder setActionButton(android.graphics.Bitmap,java.lang.String,android.app.PendingIntent)
     public androidx.browser.customtabs.CustomTabsIntent$Builder setActionButton(android.graphics.Bitmap,java.lang.String,android.app.PendingIntent,boolean)
     public androidx.browser.customtabs.CustomTabsIntent$Builder setCloseButtonIcon(android.graphics.Bitmap)
+    public androidx.browser.customtabs.CustomTabsIntent$Builder setCloseButtonPosition(int)
     public androidx.browser.customtabs.CustomTabsIntent$Builder setColorScheme(int)
     public androidx.browser.customtabs.CustomTabsIntent$Builder setColorSchemeParams(int,androidx.browser.customtabs.CustomTabColorSchemeParams)
     public androidx.browser.customtabs.CustomTabsIntent$Builder setDefaultColorSchemeParams(androidx.browser.customtabs.CustomTabColorSchemeParams)
     public androidx.browser.customtabs.CustomTabsIntent$Builder setDefaultShareMenuItemEnabled(boolean)
     public androidx.browser.customtabs.CustomTabsIntent$Builder setExitAnimations(android.content.Context,int,int)
+    public androidx.browser.customtabs.CustomTabsIntent$Builder setInitialActivityHeightPx(int)
+    public androidx.browser.customtabs.CustomTabsIntent$Builder setInitialActivityHeightPx(int,int)
     public androidx.browser.customtabs.CustomTabsIntent$Builder setInstantAppsEnabled(boolean)
     public androidx.browser.customtabs.CustomTabsIntent$Builder setNavigationBarColor(int)
     public androidx.browser.customtabs.CustomTabsIntent$Builder setNavigationBarDividerColor(int)
@@ -3181,25 +3199,37 @@ androidx.browser.customtabs.CustomTabsIntent$Builder:
     public androidx.browser.customtabs.CustomTabsIntent$Builder setSecondaryToolbarColor(int)
     public androidx.browser.customtabs.CustomTabsIntent$Builder setSecondaryToolbarViews(android.widget.RemoteViews,int[],android.app.PendingIntent)
     public androidx.browser.customtabs.CustomTabsIntent$Builder setShareState(int)
-    public androidx.browser.customtabs.CustomTabsIntent$Builder setShowTitle(boolean)
     public androidx.browser.customtabs.CustomTabsIntent$Builder setStartAnimations(android.content.Context,int,int)
     public androidx.browser.customtabs.CustomTabsIntent$Builder setToolbarColor(int)
+    public androidx.browser.customtabs.CustomTabsIntent$Builder setToolbarCornerRadiusDp(int)
     public androidx.browser.customtabs.CustomTabsIntent$Builder setUrlBarHidingEnabled(boolean)
+androidx.browser.customtabs.CustomTabsIntent$CloseButtonPosition
 androidx.browser.customtabs.CustomTabsIntent$ColorScheme
 androidx.browser.customtabs.CustomTabsIntent$ShareState
 androidx.browser.customtabs.CustomTabsIntent:
+    public static final int ACTIVITY_HEIGHT_ADJUSTABLE
+    public static final int ACTIVITY_HEIGHT_DEFAULT
+    public static final int ACTIVITY_HEIGHT_FIXED
+    private static final int ACTIVITY_HEIGHT_MAX
+    public static final int CLOSE_BUTTON_POSITION_DEFAULT
+    public static final int CLOSE_BUTTON_POSITION_END
+    private static final int CLOSE_BUTTON_POSITION_MAX
+    public static final int CLOSE_BUTTON_POSITION_START
     public static final int COLOR_SCHEME_DARK
     public static final int COLOR_SCHEME_LIGHT
     private static final int COLOR_SCHEME_MAX
     public static final int COLOR_SCHEME_SYSTEM
     public static final java.lang.String EXTRA_ACTION_BUTTON_BUNDLE
+    public static final java.lang.String EXTRA_ACTIVITY_HEIGHT_RESIZE_BEHAVIOR
     public static final java.lang.String EXTRA_CLOSE_BUTTON_ICON
+    public static final java.lang.String EXTRA_CLOSE_BUTTON_POSITION
     public static final java.lang.String EXTRA_COLOR_SCHEME
     public static final java.lang.String EXTRA_COLOR_SCHEME_PARAMS
     public static final java.lang.String EXTRA_DEFAULT_SHARE_MENU_ITEM
     public static final java.lang.String EXTRA_ENABLE_INSTANT_APPS
     public static final java.lang.String EXTRA_ENABLE_URLBAR_HIDING
     public static final java.lang.String EXTRA_EXIT_ANIMATION_BUNDLE
+    public static final java.lang.String EXTRA_INITIAL_ACTIVITY_HEIGHT_PX
     public static final java.lang.String EXTRA_MENU_ITEMS
     public static final java.lang.String EXTRA_NAVIGATION_BAR_COLOR
     public static final java.lang.String EXTRA_NAVIGATION_BAR_DIVIDER_COLOR
@@ -3214,13 +3244,16 @@ androidx.browser.customtabs.CustomTabsIntent:
     public static final java.lang.String EXTRA_TINT_ACTION_BUTTON
     public static final java.lang.String EXTRA_TITLE_VISIBILITY_STATE
     public static final java.lang.String EXTRA_TOOLBAR_COLOR
+    public static final java.lang.String EXTRA_TOOLBAR_CORNER_RADIUS_DP
     public static final java.lang.String EXTRA_TOOLBAR_ITEMS
     private static final java.lang.String EXTRA_USER_OPT_OUT_FROM_CUSTOM_TABS
+    private static final java.lang.String HTTP_ACCEPT_LANGUAGE
     public static final java.lang.String KEY_DESCRIPTION
     public static final java.lang.String KEY_ICON
     public static final java.lang.String KEY_ID
     public static final java.lang.String KEY_MENU_ITEM_TITLE
     public static final java.lang.String KEY_PENDING_INTENT
+    private static final int MAX_TOOLBAR_CORNER_RADIUS_DP
     private static final int MAX_TOOLBAR_ITEMS
     public static final int NO_TITLE
     public static final int SHARE_STATE_DEFAULT
@@ -3229,8 +3262,12 @@ androidx.browser.customtabs.CustomTabsIntent:
     public static final int SHARE_STATE_ON
     public static final int SHOW_PAGE_TITLE
     public static final int TOOLBAR_ACTION_BUTTON_ID
+    public static int getActivityResizeBehavior(android.content.Intent)
+    public static int getCloseButtonPosition(android.content.Intent)
     public static androidx.browser.customtabs.CustomTabColorSchemeParams getColorSchemeParams(android.content.Intent,int)
+    public static int getInitialActivityHeightPx(android.content.Intent)
     public static int getMaxToolbarItems()
+    public static int getToolbarCornerRadiusDp(android.content.Intent)
     public static android.content.Intent setAlwaysUseBrowserUI(android.content.Intent)
     public static boolean shouldAlwaysUseBrowserUI(android.content.Intent)
 androidx.browser.customtabs.CustomTabsService$1
@@ -6795,11 +6832,10 @@ androidx.core.animation.AnimatorKt$addPauseListener$2
 androidx.core.animation.AnimatorKt$addPauseListener$listener$1
 androidx.core.animation.AnimatorKt$doOnCancel$$inlined$addListener$default$1
 androidx.core.animation.AnimatorKt$doOnEnd$$inlined$addListener$default$1
-androidx.core.animation.AnimatorKt$doOnPause$$inlined$addPauseListener$default$1
 androidx.core.animation.AnimatorKt$doOnRepeat$$inlined$addListener$default$1
-androidx.core.animation.AnimatorKt$doOnResume$$inlined$addPauseListener$default$1
 androidx.core.animation.AnimatorKt$doOnStart$$inlined$addListener$default$1
 androidx.core.animation.AnimatorKt
+androidx.core.animation.Api19Impl
 androidx.core.app.ActivityCompat$1
 androidx.core.app.ActivityCompat$Api16Impl:
     private void <init>()
@@ -6809,6 +6845,7 @@ androidx.core.app.ActivityCompat$Api23Impl
 androidx.core.app.ActivityCompat$Api28Impl
 androidx.core.app.ActivityCompat$Api30Impl
 androidx.core.app.ActivityCompat$Api31Impl
+androidx.core.app.ActivityCompat$Api32Impl
 androidx.core.app.ActivityCompat$OnRequestPermissionsResultCallback
 androidx.core.app.ActivityCompat$PermissionCompatDelegate:
     public abstract boolean requestPermissions(android.app.Activity,java.lang.String[],int)
@@ -6892,6 +6929,10 @@ androidx.core.app.JobIntentService$JobServiceEngineImpl
 androidx.core.app.JobIntentService$JobWorkEnqueuer
 androidx.core.app.JobIntentService$WorkEnqueuer
 androidx.core.app.JobIntentService
+androidx.core.app.LocaleManagerCompat$Api21Impl
+androidx.core.app.LocaleManagerCompat$Api24Impl
+androidx.core.app.LocaleManagerCompat$Api33Impl
+androidx.core.app.LocaleManagerCompat
 androidx.core.app.MultiWindowModeChangedInfo
 androidx.core.app.NavUtils$Api16Impl:
     private void <init>()
@@ -6901,11 +6942,22 @@ androidx.core.app.NavUtils:
     private void <init>()
     public static android.content.Intent getParentActivityIntent(android.content.Context,java.lang.Class)
     public static void navigateUpFromSameTask(android.app.Activity)
+androidx.core.app.NotificationChannelCompat$Api26Impl
+androidx.core.app.NotificationChannelCompat$Api29Impl
+androidx.core.app.NotificationChannelCompat$Api30Impl
 androidx.core.app.NotificationChannelCompat$Builder
 androidx.core.app.NotificationChannelCompat
+androidx.core.app.NotificationChannelGroupCompat$Api26Impl
+androidx.core.app.NotificationChannelGroupCompat$Api28Impl
 androidx.core.app.NotificationChannelGroupCompat$Builder
 androidx.core.app.NotificationChannelGroupCompat
 androidx.core.app.NotificationCompat$1
+androidx.core.app.NotificationCompat$Action$Builder$Api20Impl
+androidx.core.app.NotificationCompat$Action$Builder$Api23Impl
+androidx.core.app.NotificationCompat$Action$Builder$Api24Impl
+androidx.core.app.NotificationCompat$Action$Builder$Api28Impl
+androidx.core.app.NotificationCompat$Action$Builder$Api29Impl
+androidx.core.app.NotificationCompat$Action$Builder$Api31Impl
 androidx.core.app.NotificationCompat$Action$Builder
 androidx.core.app.NotificationCompat$Action$Extender
 androidx.core.app.NotificationCompat$Action$SemanticAction
@@ -6926,11 +6978,20 @@ androidx.core.app.NotificationCompat$Action:
     public static final int SEMANTIC_ACTION_UNMUTE
     void <init>(int,java.lang.CharSequence,android.app.PendingIntent,android.os.Bundle,androidx.core.app.RemoteInput[],androidx.core.app.RemoteInput[],boolean,int,boolean,boolean,boolean)
     public int getIcon()
+androidx.core.app.NotificationCompat$Api20Impl
+androidx.core.app.NotificationCompat$Api23Impl
+androidx.core.app.NotificationCompat$Api24Impl
+androidx.core.app.NotificationCompat$Api26Impl
+androidx.core.app.NotificationCompat$Api28Impl
+androidx.core.app.NotificationCompat$Api29Impl
+androidx.core.app.NotificationCompat$Api31Impl
 androidx.core.app.NotificationCompat$BadgeIconType
 androidx.core.app.NotificationCompat$BigPictureStyle$Api16Impl
 androidx.core.app.NotificationCompat$BigPictureStyle$Api23Impl
 androidx.core.app.NotificationCompat$BigPictureStyle$Api31Impl
 androidx.core.app.NotificationCompat$BigPictureStyle
+androidx.core.app.NotificationCompat$BigTextStyle$Api16Impl:
+    private void <init>()
 androidx.core.app.NotificationCompat$BigTextStyle:
     private static final java.lang.String TEMPLATE_CLASS_NAME
     public void <init>(androidx.core.app.NotificationCompat$Builder)
@@ -6959,6 +7020,9 @@ androidx.core.app.NotificationCompat$BubbleMetadata:
     synthetic void <init>(android.app.PendingIntent,android.app.PendingIntent,androidx.core.graphics.drawable.IconCompat,int,int,int,java.lang.String,androidx.core.app.NotificationCompat$1)
     public static androidx.core.app.NotificationCompat$BubbleMetadata fromPlatform(android.app.Notification$BubbleMetadata)
     public void setFlags(int)
+androidx.core.app.NotificationCompat$Builder$Api21Impl
+androidx.core.app.NotificationCompat$Builder$Api23Impl
+androidx.core.app.NotificationCompat$Builder$Api24Impl
 androidx.core.app.NotificationCompat$Builder:
     private static final int MAX_CHARSEQUENCE_LENGTH
     boolean mChronometerCountDown
@@ -7033,18 +7097,41 @@ androidx.core.app.NotificationCompat$Builder:
     public androidx.core.app.NotificationCompat$Builder setVibrate(long[])
     public androidx.core.app.NotificationCompat$Builder setVisibility(int)
     private boolean useExistingRemoteView()
+androidx.core.app.NotificationCompat$CallStyle$Api16Impl
+androidx.core.app.NotificationCompat$CallStyle$Api20Impl
+androidx.core.app.NotificationCompat$CallStyle$Api21Impl
+androidx.core.app.NotificationCompat$CallStyle$Api23Impl
+androidx.core.app.NotificationCompat$CallStyle$Api24Impl
+androidx.core.app.NotificationCompat$CallStyle$Api28Impl
+androidx.core.app.NotificationCompat$CallStyle$Api31Impl
+androidx.core.app.NotificationCompat$CallStyle$CallType
+androidx.core.app.NotificationCompat$CallStyle
+androidx.core.app.NotificationCompat$CarExtender$Api20Impl
+androidx.core.app.NotificationCompat$CarExtender$Api29Impl
 androidx.core.app.NotificationCompat$CarExtender$UnreadConversation$Builder
 androidx.core.app.NotificationCompat$CarExtender$UnreadConversation
 androidx.core.app.NotificationCompat$CarExtender
+androidx.core.app.NotificationCompat$DecoratedCustomViewStyle$Api15Impl
+androidx.core.app.NotificationCompat$DecoratedCustomViewStyle$Api16Impl
+androidx.core.app.NotificationCompat$DecoratedCustomViewStyle$Api24Impl
 androidx.core.app.NotificationCompat$DecoratedCustomViewStyle
 androidx.core.app.NotificationCompat$Extender
 androidx.core.app.NotificationCompat$GroupAlertBehavior
+androidx.core.app.NotificationCompat$InboxStyle$Api16Impl
 androidx.core.app.NotificationCompat$InboxStyle
+androidx.core.app.NotificationCompat$MessagingStyle$Api16Impl
+androidx.core.app.NotificationCompat$MessagingStyle$Api24Impl
+androidx.core.app.NotificationCompat$MessagingStyle$Api26Impl
+androidx.core.app.NotificationCompat$MessagingStyle$Api28Impl
+androidx.core.app.NotificationCompat$MessagingStyle$Message$Api24Impl
+androidx.core.app.NotificationCompat$MessagingStyle$Message$Api28Impl
 androidx.core.app.NotificationCompat$MessagingStyle$Message
 androidx.core.app.NotificationCompat$MessagingStyle
 androidx.core.app.NotificationCompat$NotificationVisibility
 androidx.core.app.NotificationCompat$ServiceNotificationBehavior
 androidx.core.app.NotificationCompat$StreamType
+androidx.core.app.NotificationCompat$Style$Api16Impl
+androidx.core.app.NotificationCompat$Style$Api24Impl
 androidx.core.app.NotificationCompat$Style:
     public android.widget.RemoteViews applyStandardTemplate(boolean,int,boolean)
     public android.app.Notification build()
@@ -7065,6 +7152,10 @@ androidx.core.app.NotificationCompat$Style:
     public static androidx.core.app.NotificationCompat$Style extractStyleFromNotification(android.app.Notification)
     private void hideNormalContent(android.widget.RemoteViews)
     protected void restoreFromCompatExtras(android.os.Bundle)
+androidx.core.app.NotificationCompat$WearableExtender$Api20Impl
+androidx.core.app.NotificationCompat$WearableExtender$Api23Impl
+androidx.core.app.NotificationCompat$WearableExtender$Api24Impl
+androidx.core.app.NotificationCompat$WearableExtender$Api31Impl
 androidx.core.app.NotificationCompat$WearableExtender
 androidx.core.app.NotificationCompat:
     public static final int BADGE_ICON_LARGE
@@ -7095,9 +7186,15 @@ androidx.core.app.NotificationCompat:
     public static final int DEFAULT_LIGHTS
     public static final int DEFAULT_SOUND
     public static final int DEFAULT_VIBRATE
+    public static final java.lang.String EXTRA_ANSWER_COLOR
+    public static final java.lang.String EXTRA_ANSWER_INTENT
     public static final java.lang.String EXTRA_AUDIO_CONTENTS_URI
     public static final java.lang.String EXTRA_BACKGROUND_IMAGE_URI
     public static final java.lang.String EXTRA_BIG_TEXT
+    public static final java.lang.String EXTRA_CALL_IS_VIDEO
+    public static final java.lang.String EXTRA_CALL_PERSON
+    public static final java.lang.String EXTRA_CALL_PERSON_COMPAT
+    public static final java.lang.String EXTRA_CALL_TYPE
     public static final java.lang.String EXTRA_CHANNEL_GROUP_ID
     public static final java.lang.String EXTRA_CHANNEL_ID
     public static final java.lang.String EXTRA_CHRONOMETER_COUNT_DOWN
@@ -7105,6 +7202,9 @@ androidx.core.app.NotificationCompat:
     public static final java.lang.String EXTRA_COMPACT_ACTIONS
     public static final java.lang.String EXTRA_COMPAT_TEMPLATE
     public static final java.lang.String EXTRA_CONVERSATION_TITLE
+    public static final java.lang.String EXTRA_DECLINE_COLOR
+    public static final java.lang.String EXTRA_DECLINE_INTENT
+    public static final java.lang.String EXTRA_HANG_UP_INTENT
     public static final java.lang.String EXTRA_HIDDEN_CONVERSATION_TITLE
     public static final java.lang.String EXTRA_HISTORIC_MESSAGES
     public static final java.lang.String EXTRA_INFO_TEXT
@@ -7120,6 +7220,7 @@ androidx.core.app.NotificationCompat:
     public static final java.lang.String EXTRA_PEOPLE_LIST
     public static final java.lang.String EXTRA_PICTURE
     public static final java.lang.String EXTRA_PICTURE_CONTENT_DESCRIPTION
+    public static final java.lang.String EXTRA_PICTURE_ICON
     public static final java.lang.String EXTRA_PROGRESS
     public static final java.lang.String EXTRA_PROGRESS_INDETERMINATE
     public static final java.lang.String EXTRA_PROGRESS_MAX
@@ -7136,6 +7237,9 @@ androidx.core.app.NotificationCompat:
     public static final java.lang.String EXTRA_TEXT_LINES
     public static final java.lang.String EXTRA_TITLE
     public static final java.lang.String EXTRA_TITLE_BIG
+    public static final java.lang.String EXTRA_VERIFICATION_ICON
+    public static final java.lang.String EXTRA_VERIFICATION_ICON_COMPAT
+    public static final java.lang.String EXTRA_VERIFICATION_TEXT
     public static final int FLAG_AUTO_CANCEL
     public static final int FLAG_BUBBLE
     public static final int FLAG_FOREGROUND_SERVICE
@@ -7155,12 +7259,14 @@ androidx.core.app.NotificationCompat:
     public static final int GROUP_ALERT_SUMMARY
     public static final java.lang.String GROUP_KEY_SILENT
     public static final java.lang.String INTENT_CATEGORY_NOTIFICATION_PREFERENCES
+    public static final int MAX_ACTION_BUTTONS
     public static final int PRIORITY_DEFAULT
     public static final int PRIORITY_HIGH
     public static final int PRIORITY_LOW
     public static final int PRIORITY_MAX
     public static final int PRIORITY_MIN
     public static final int STREAM_DEFAULT
+    private static final java.lang.String TAG
     public static final int VISIBILITY_PRIVATE
     public static final int VISIBILITY_PUBLIC
     public static final int VISIBILITY_SECRET
@@ -7198,6 +7304,28 @@ androidx.core.app.NotificationCompat:
     public static boolean getUsesChronometer(android.app.Notification)
     public static int getVisibility(android.app.Notification)
     public static boolean isGroupSummary(android.app.Notification)
+androidx.core.app.NotificationCompatBuilder$Api16Impl:
+    private void <init>()
+androidx.core.app.NotificationCompatBuilder$Api17Impl:
+    private void <init>()
+androidx.core.app.NotificationCompatBuilder$Api19Impl:
+    private void <init>()
+androidx.core.app.NotificationCompatBuilder$Api20Impl:
+    private void <init>()
+androidx.core.app.NotificationCompatBuilder$Api21Impl:
+    private void <init>()
+androidx.core.app.NotificationCompatBuilder$Api23Impl:
+    private void <init>()
+androidx.core.app.NotificationCompatBuilder$Api24Impl:
+    private void <init>()
+androidx.core.app.NotificationCompatBuilder$Api26Impl:
+    private void <init>()
+androidx.core.app.NotificationCompatBuilder$Api28Impl:
+    private void <init>()
+androidx.core.app.NotificationCompatBuilder$Api29Impl:
+    private void <init>()
+androidx.core.app.NotificationCompatBuilder$Api31Impl:
+    private void <init>()
 androidx.core.app.NotificationCompatBuilder:
     android.content.Context getContext()
 androidx.core.app.NotificationCompatExtras
@@ -7235,6 +7363,11 @@ androidx.core.app.NotificationCompatJellybean:
     public static androidx.core.app.NotificationCompat$Action readAction(int,java.lang.CharSequence,android.app.PendingIntent,android.os.Bundle)
 androidx.core.app.NotificationCompatSideChannelService$NotificationSideChannelStub
 androidx.core.app.NotificationCompatSideChannelService
+androidx.core.app.NotificationManagerCompat$Api24Impl:
+    private void <init>()
+androidx.core.app.NotificationManagerCompat$Api26Impl
+androidx.core.app.NotificationManagerCompat$Api28Impl
+androidx.core.app.NotificationManagerCompat$Api30Impl
 androidx.core.app.NotificationManagerCompat$CancelTask
 androidx.core.app.NotificationManagerCompat$NotifyTask
 androidx.core.app.NotificationManagerCompat$ServiceConnectedEvent
@@ -7293,6 +7426,10 @@ androidx.core.app.NotificationManagerCompat:
 androidx.core.app.OnMultiWindowModeChangedProvider
 androidx.core.app.OnNewIntentProvider
 androidx.core.app.OnPictureInPictureModeChangedProvider
+androidx.core.app.PendingIntentCompat$Api16Impl
+androidx.core.app.PendingIntentCompat$Api26Impl
+androidx.core.app.PendingIntentCompat$Flags
+androidx.core.app.PendingIntentCompat
 androidx.core.app.Person$Api22Impl
 androidx.core.app.Person$Api28Impl:
     private void <init>()
@@ -7424,8 +7561,15 @@ androidx.core.content.ContextCompat$Api26Impl:
 androidx.core.content.ContextCompat$Api28Impl:
     private void <init>()
 androidx.core.content.ContextCompat$Api30Impl
+androidx.core.content.ContextCompat$Api33Impl:
+    private void <init>()
 androidx.core.content.ContextCompat$LegacyServiceMapHolder
+androidx.core.content.ContextCompat$RegisterReceiverFlags
 androidx.core.content.ContextCompat:
+    private static final java.lang.String DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION_SUFFIX
+    public static final int RECEIVER_EXPORTED
+    public static final int RECEIVER_NOT_EXPORTED
+    public static final int RECEIVER_VISIBLE_TO_INSTANT_APPS
     private static final java.lang.String TAG
     protected void <init>()
     public static android.content.Context createDeviceProtectedStorageContext(android.content.Context)
@@ -7447,7 +7591,15 @@ androidx.core.content.FileProvider$PathStrategy
 androidx.core.content.FileProvider$SimplePathStrategy
 androidx.core.content.FileProvider
 androidx.core.content.IntentCompat$Api15Impl
+androidx.core.content.IntentCompat$Api33Impl
 androidx.core.content.IntentCompat
+androidx.core.content.IntentSanitizer$1
+androidx.core.content.IntentSanitizer$Api15Impl
+androidx.core.content.IntentSanitizer$Api16Impl$Api31Impl
+androidx.core.content.IntentSanitizer$Api16Impl
+androidx.core.content.IntentSanitizer$Api29Impl
+androidx.core.content.IntentSanitizer$Builder
+androidx.core.content.IntentSanitizer
 androidx.core.content.LocusIdCompat$Api29Impl
 androidx.core.content.LocusIdCompat:
     private final java.lang.String mId
@@ -7483,6 +7635,7 @@ androidx.core.content.UnusedAppRestrictionsBackportService
 androidx.core.content.UnusedAppRestrictionsBackportServiceConnection$1
 androidx.core.content.UnusedAppRestrictionsBackportServiceConnection
 androidx.core.content.UnusedAppRestrictionsConstants
+androidx.core.content.UriMatcherCompat
 androidx.core.content.pm.ActivityInfoCompat
 androidx.core.content.pm.PackageInfoCompat$Api28Impl
 androidx.core.content.pm.PackageInfoCompat
@@ -7491,6 +7644,7 @@ androidx.core.content.pm.PermissionInfoCompat$Protection
 androidx.core.content.pm.PermissionInfoCompat$ProtectionFlags
 androidx.core.content.pm.PermissionInfoCompat
 androidx.core.content.pm.ShortcutInfoChangeListener
+androidx.core.content.pm.ShortcutInfoCompat$Api33Impl
 androidx.core.content.pm.ShortcutInfoCompat$Builder
 androidx.core.content.pm.ShortcutInfoCompat$Surface
 androidx.core.content.pm.ShortcutInfoCompat
@@ -7673,6 +7827,7 @@ androidx.core.graphics.ShaderKt
 androidx.core.graphics.TypefaceCompat:
     private void <init>()
     public static void clearCache()
+    public static android.graphics.Typeface create(android.content.Context,android.graphics.Typeface,int,boolean)
     public static android.graphics.Typeface createFromResourcesFamilyXml(android.content.Context,androidx.core.content.res.FontResourcesParserCompat$FamilyResourceEntry,android.content.res.Resources,int,int,androidx.core.content.res.ResourcesCompat$FontCallback,android.os.Handler,boolean)
     public static android.graphics.Typeface createFromResourcesFontFile(android.content.Context,android.content.res.Resources,int,java.lang.String,int)
     public static android.graphics.Typeface findFromCache(android.content.res.Resources,int,int)
@@ -7681,11 +7836,13 @@ androidx.core.graphics.TypefaceCompatApi21Impl:
     private static final java.lang.String CREATE_FROM_FAMILIES_WITH_DEFAULT_METHOD
     private static final java.lang.String FONT_FAMILY_CLASS
     private static final java.lang.String TAG
+    android.graphics.Typeface createWeightStyle(android.content.Context,android.graphics.Typeface,int,boolean)
 androidx.core.graphics.TypefaceCompatApi24Impl:
     private static final java.lang.String ADD_FONT_WEIGHT_STYLE_METHOD
     private static final java.lang.String CREATE_FROM_FAMILIES_WITH_DEFAULT_METHOD
     private static final java.lang.String FONT_FAMILY_CLASS
     private static final java.lang.String TAG
+    android.graphics.Typeface createWeightStyle(android.content.Context,android.graphics.Typeface,int,boolean)
 androidx.core.graphics.TypefaceCompatApi26Impl:
     private static final java.lang.String ABORT_CREATION_METHOD
     private static final java.lang.String ADD_FONT_FROM_ASSET_MANAGER_METHOD
@@ -7695,19 +7852,30 @@ androidx.core.graphics.TypefaceCompatApi26Impl:
     private static final java.lang.String FREEZE_METHOD
     private static final int RESOLVE_BY_FONT_TABLE
     private static final java.lang.String TAG
+    android.graphics.Typeface createWeightStyle(android.content.Context,android.graphics.Typeface,int,boolean)
 androidx.core.graphics.TypefaceCompatApi28Impl:
     private static final java.lang.String CREATE_FROM_FAMILIES_WITH_DEFAULT_METHOD
     private static final java.lang.String DEFAULT_FAMILY
     private static final int RESOLVE_BY_FONT_TABLE
+    android.graphics.Typeface createWeightStyle(android.content.Context,android.graphics.Typeface,int,boolean)
+androidx.core.graphics.TypefaceCompatApi29Impl:
+    android.graphics.Typeface createWeightStyle(android.content.Context,android.graphics.Typeface,int,boolean)
+androidx.core.graphics.TypefaceCompatBaseImpl$3
 androidx.core.graphics.TypefaceCompatBaseImpl:
     private static final int INVALID_KEY
     private static final java.lang.String TAG
+    android.graphics.Typeface createFromFontFamilyFilesResourceEntry(android.content.Context,androidx.core.content.res.FontResourcesParserCompat$FontFamilyFilesResourceEntry,android.content.res.Resources,int,boolean)
+    android.graphics.Typeface createWeightStyle(android.content.Context,android.graphics.Typeface,int,boolean)
+    private androidx.core.content.res.FontResourcesParserCompat$FontFileResourceEntry findBestEntry(androidx.core.content.res.FontResourcesParserCompat$FontFamilyFilesResourceEntry,int,boolean)
 androidx.core.graphics.TypefaceCompatUtil$Api19Impl:
     private void <init>()
 androidx.core.graphics.TypefaceCompatUtil:
     private static final java.lang.String CACHE_FILE_PREFIX
     private static final java.lang.String TAG
     private void <init>()
+androidx.core.graphics.WeightTypefaceApi14
+androidx.core.graphics.WeightTypefaceApi21
+androidx.core.graphics.WeightTypefaceApi26
 androidx.core.graphics.drawable.BitmapDrawableKt
 androidx.core.graphics.drawable.ColorDrawableKt
 androidx.core.graphics.drawable.DrawableCompat$Api19Impl:
@@ -7826,7 +7994,7 @@ androidx.core.location.LocationManagerCompat$Api28Impl
 androidx.core.location.LocationManagerCompat$Api30Impl
 androidx.core.location.LocationManagerCompat$Api31Impl
 androidx.core.location.LocationManagerCompat$CancellableLocationListener
-androidx.core.location.LocationManagerCompat$GnssLazyLoader
+androidx.core.location.LocationManagerCompat$GnssListenersHolder
 androidx.core.location.LocationManagerCompat$GnssStatusTransport
 androidx.core.location.LocationManagerCompat$GpsStatusTransport
 androidx.core.location.LocationManagerCompat$InlineHandlerExecutor
@@ -7876,6 +8044,8 @@ androidx.core.net.TrafficStatsCompat$Api24Impl
 androidx.core.net.TrafficStatsCompat
 androidx.core.net.UriCompat
 androidx.core.net.UriKt
+androidx.core.os.BuildCompat$Extensions30Impl:
+    private void <init>()
 androidx.core.os.BuildCompat$PrereleaseSdkCheck
 androidx.core.os.BuildCompat:
     private void <init>()
@@ -7886,10 +8056,11 @@ androidx.core.os.BuildCompat:
     public static boolean isAtLeastP()
     public static boolean isAtLeastQ()
     public static boolean isAtLeastSv2()
-    public static boolean isAtLeastT()
     public static boolean isAtLeastU()
 androidx.core.os.BundleApi18ImplKt
 androidx.core.os.BundleApi21ImplKt
+androidx.core.os.BundleCompat$Api33Impl
+androidx.core.os.BundleCompat
 androidx.core.os.BundleKt
 androidx.core.os.CancellationSignal$Api16Impl
 androidx.core.os.CancellationSignal$OnCancelListener
@@ -7928,6 +8099,7 @@ androidx.core.os.LocaleListCompat:
     public java.util.Locale getFirstMatch(java.lang.String[])
     public int indexOf(java.util.Locale)
     public boolean isEmpty()
+    public static boolean matchesLanguageAndScript(java.util.Locale,java.util.Locale)
     public int size()
     public java.lang.String toLanguageTags()
     public java.lang.Object unwrap()
@@ -7960,6 +8132,9 @@ androidx.core.os.LocaleListPlatformWrapper:
 androidx.core.os.MessageCompat$Api22Impl
 androidx.core.os.MessageCompat
 androidx.core.os.OperationCanceledException
+androidx.core.os.ParcelCompat$Api29Impl
+androidx.core.os.ParcelCompat$Api30Impl
+androidx.core.os.ParcelCompat$Api33Impl
 androidx.core.os.ParcelCompat
 androidx.core.os.ParcelableCompat$ParcelableCompatCreatorHoneycombMR2
 androidx.core.os.ParcelableCompat
@@ -8176,6 +8351,7 @@ androidx.core.view.ActionProvider:
     public android.content.Context getContext()
     public void refreshVisibility()
     public void subUiVisibilityChanged(boolean)
+androidx.core.view.Api16Impl
 androidx.core.view.ContentInfoCompat$Api31Impl
 androidx.core.view.ContentInfoCompat$Builder
 androidx.core.view.ContentInfoCompat$BuilderCompat31Impl
@@ -8670,7 +8846,6 @@ androidx.core.view.ViewKt$doOnLayout$$inlined$doOnNextLayout$1
 androidx.core.view.ViewKt$doOnNextLayout$1
 androidx.core.view.ViewKt$doOnPreDraw$1
 androidx.core.view.ViewKt$postDelayed$runnable$1
-androidx.core.view.ViewKt$postOnAnimationDelayed$runnable$1
 androidx.core.view.ViewKt
 androidx.core.view.ViewParentCompat$Api19Impl
 androidx.core.view.ViewParentCompat$Api21Impl:
@@ -8860,6 +9035,7 @@ androidx.core.view.WindowInsetsControllerCompat$Impl:
     void show(int)
 androidx.core.view.WindowInsetsControllerCompat$OnControllableInsetsChangedListener
 androidx.core.view.WindowInsetsControllerCompat:
+    public static final int BEHAVIOR_DEFAULT
     public static final int BEHAVIOR_SHOW_BARS_BY_SWIPE
     public static final int BEHAVIOR_SHOW_BARS_BY_TOUCH
     public static final int BEHAVIOR_SHOW_TRANSIENT_BARS_BY_SWIPE
@@ -8891,6 +9067,9 @@ androidx.core.view.accessibility.AccessibilityNodeInfoCompat$AccessibilityAction
     private static final java.lang.String TAG
     public void <init>(int,java.lang.CharSequence,androidx.core.view.accessibility.AccessibilityViewCommand)
     public androidx.core.view.accessibility.AccessibilityNodeInfoCompat$AccessibilityActionCompat createReplacementAction(java.lang.CharSequence,androidx.core.view.accessibility.AccessibilityViewCommand)
+androidx.core.view.accessibility.AccessibilityNodeInfoCompat$Api19Impl:
+    private void <init>()
+androidx.core.view.accessibility.AccessibilityNodeInfoCompat$Api33Impl
 androidx.core.view.accessibility.AccessibilityNodeInfoCompat$CollectionInfoCompat
 androidx.core.view.accessibility.AccessibilityNodeInfoCompat$CollectionItemInfoCompat
 androidx.core.view.accessibility.AccessibilityNodeInfoCompat$RangeInfoCompat
@@ -8930,14 +9109,20 @@ androidx.core.view.accessibility.AccessibilityNodeInfoCompat:
     public static final int ACTION_SELECT
     public static final int ACTION_SET_SELECTION
     public static final int ACTION_SET_TEXT
+    private static final int BOOLEAN_PROPERTY_HAS_REQUEST_INITIAL_ACCESSIBILITY_FOCUS
     private static final int BOOLEAN_PROPERTY_IS_HEADING
     private static final int BOOLEAN_PROPERTY_IS_SHOWING_HINT
     private static final int BOOLEAN_PROPERTY_IS_TEXT_ENTRY_KEY
     private static final java.lang.String BOOLEAN_PROPERTY_KEY
     private static final int BOOLEAN_PROPERTY_SCREEN_READER_FOCUSABLE
+    public static final java.lang.String EXTRA_DATA_TEXT_CHARACTER_LOCATION_ARG_LENGTH
+    public static final int EXTRA_DATA_TEXT_CHARACTER_LOCATION_ARG_MAX_LENGTH
+    public static final java.lang.String EXTRA_DATA_TEXT_CHARACTER_LOCATION_ARG_START_INDEX
+    public static final java.lang.String EXTRA_DATA_TEXT_CHARACTER_LOCATION_KEY
     public static final int FOCUS_ACCESSIBILITY
     public static final int FOCUS_INPUT
     private static final java.lang.String HINT_TEXT_KEY
+    private static final java.lang.String MIN_DURATION_BETWEEN_CONTENT_CHANGES_KEY
     public static final int MOVEMENT_GRANULARITY_CHARACTER
     public static final int MOVEMENT_GRANULARITY_LINE
     public static final int MOVEMENT_GRANULARITY_PAGE
@@ -8952,6 +9137,7 @@ androidx.core.view.accessibility.AccessibilityNodeInfoCompat:
     private static final java.lang.String SPANS_START_KEY
     private static final java.lang.String STATE_DESCRIPTION_KEY
     private static final java.lang.String TOOLTIP_TEXT_KEY
+    private static final java.lang.String UNIQUE_ID_KEY
     public void <init>(java.lang.Object)
     public void addAction(int)
     public void addChild(android.view.View)
@@ -8969,6 +9155,7 @@ androidx.core.view.accessibility.AccessibilityNodeInfoCompat:
     public androidx.core.view.accessibility.AccessibilityNodeInfoCompat$CollectionItemInfoCompat getCollectionItemInfo()
     public int getDrawingOrder()
     public java.lang.CharSequence getError()
+    public android.view.accessibility.AccessibilityNodeInfo$ExtraRenderingInfo getExtraRenderingInfo()
     public java.lang.CharSequence getHintText()
     public java.lang.Object getInfo()
     public int getInputType()
@@ -8976,6 +9163,7 @@ androidx.core.view.accessibility.AccessibilityNodeInfoCompat:
     public androidx.core.view.accessibility.AccessibilityNodeInfoCompat getLabeledBy()
     public int getLiveRegion()
     public int getMaxTextLength()
+    public long getMinDurationBetweenContentChangesMillis()
     public int getMovementGranularities()
     public java.lang.CharSequence getPaneTitle()
     public androidx.core.view.accessibility.AccessibilityNodeInfoCompat getParent()
@@ -8990,6 +9178,7 @@ androidx.core.view.accessibility.AccessibilityNodeInfoCompat:
     public androidx.core.view.accessibility.AccessibilityNodeInfoCompat getTraversalBefore()
     public androidx.core.view.accessibility.AccessibilityWindowInfoCompat getWindow()
     public int getWindowId()
+    public boolean hasRequestInitialAccessibilityFocus()
     public boolean isAccessibilityFocused()
     public boolean isContentInvalid()
     public boolean isContextClickable()
@@ -9001,6 +9190,7 @@ androidx.core.view.accessibility.AccessibilityNodeInfoCompat:
     public boolean isScreenReaderFocusable()
     public boolean isShowingHintText()
     public boolean isTextEntryKey()
+    public boolean isTextSelectable()
     public boolean isVisibleToUser()
     public static androidx.core.view.accessibility.AccessibilityNodeInfoCompat obtain()
     public static androidx.core.view.accessibility.AccessibilityNodeInfoCompat obtain(android.view.View)
@@ -9042,6 +9232,7 @@ androidx.core.view.accessibility.AccessibilityNodeInfoCompat:
     public void setLiveRegion(int)
     public void setLongClickable(boolean)
     public void setMaxTextLength(int)
+    public void setMinDurationBetweenContentChangesMillis(long)
     public void setMovementGranularities(int)
     public void setMultiLine(boolean)
     public void setPackageName(java.lang.CharSequence)
@@ -9049,6 +9240,7 @@ androidx.core.view.accessibility.AccessibilityNodeInfoCompat:
     public void setParent(android.view.View,int)
     public void setPassword(boolean)
     public void setRangeInfo(androidx.core.view.accessibility.AccessibilityNodeInfoCompat$RangeInfoCompat)
+    public void setRequestInitialAccessibilityFocus(boolean)
     public void setRoleDescription(java.lang.CharSequence)
     public void setSelected(boolean)
     public void setShowingHintText(boolean)
@@ -9056,6 +9248,7 @@ androidx.core.view.accessibility.AccessibilityNodeInfoCompat:
     public void setSource(android.view.View,int)
     public void setText(java.lang.CharSequence)
     public void setTextEntryKey(boolean)
+    public void setTextSelectable(boolean)
     public void setTextSelection(int,int)
     public void setTooltipText(java.lang.CharSequence)
     public void setTouchDelegateInfo(androidx.core.view.accessibility.AccessibilityNodeInfoCompat$TouchDelegateInfoCompat)
@@ -9063,6 +9256,7 @@ androidx.core.view.accessibility.AccessibilityNodeInfoCompat:
     public void setTraversalAfter(android.view.View,int)
     public void setTraversalBefore(android.view.View)
     public void setTraversalBefore(android.view.View,int)
+    public void setUniqueId(java.lang.String)
     public void setViewIdResourceName(java.lang.String)
     public void setVisibleToUser(boolean)
     static androidx.core.view.accessibility.AccessibilityNodeInfoCompat wrapNonNullInstance(java.lang.Object)
@@ -9155,6 +9349,7 @@ androidx.core.view.accessibility.AccessibilityViewCommand$SetTextArguments:
     public java.lang.CharSequence getText()
 androidx.core.view.accessibility.AccessibilityWindowInfoCompat$Api21Impl
 androidx.core.view.accessibility.AccessibilityWindowInfoCompat$Api24Impl
+androidx.core.view.accessibility.AccessibilityWindowInfoCompat$Api33Impl
 androidx.core.view.accessibility.AccessibilityWindowInfoCompat
 androidx.core.view.animation.PathInterpolatorApi14
 androidx.core.view.animation.PathInterpolatorCompat$Api21Impl
@@ -9265,8 +9460,11 @@ androidx.core.widget.NestedScrollView$Api21Impl:
 androidx.core.widget.NestedScrollView:
     static final int ANIMATED_SCROLL_GAP
     private static final int DEFAULT_SMOOTH_SCROLL_DURATION
+    private static final float FLING_DESTRETCH_FACTOR
+    private static final float INFLEXION
     private static final int INVALID_POINTER
     static final float MAX_SCROLL_FACTOR
+    private static final float SCROLL_FRICTION
     private static final java.lang.String TAG
     public void <init>(android.content.Context)
     public boolean dispatchNestedScroll(int,int,int,int,int[],int)
@@ -19824,6 +20022,33 @@ io.flutter.plugins.sharedpreferences.SharedPreferencesPlugin:
     private static final java.lang.String SHARED_PREFERENCES_NAME
     private static final java.lang.String TAG
     public static void registerWith(io.flutter.plugin.common.PluginRegistry$Registrar)
+io.flutter.plugins.urllauncher.BuildConfig
+io.flutter.plugins.urllauncher.Messages$BrowserOptions$Builder
+io.flutter.plugins.urllauncher.Messages$WebViewOptions$Builder
+io.flutter.plugins.urllauncher.Messages:
+    public void <init>()
+io.flutter.plugins.urllauncher.R$attr
+io.flutter.plugins.urllauncher.R$color
+io.flutter.plugins.urllauncher.R$dimen
+io.flutter.plugins.urllauncher.R$drawable
+io.flutter.plugins.urllauncher.R$id
+io.flutter.plugins.urllauncher.R$integer
+io.flutter.plugins.urllauncher.R$layout
+io.flutter.plugins.urllauncher.R$string
+io.flutter.plugins.urllauncher.R$style
+io.flutter.plugins.urllauncher.R$styleable
+io.flutter.plugins.urllauncher.R$xml
+io.flutter.plugins.urllauncher.R
+io.flutter.plugins.urllauncher.UrlLauncher:
+    private static final java.lang.String TAG
+io.flutter.plugins.urllauncher.UrlLauncherPlugin:
+    private static final java.lang.String TAG
+    public static void registerWith(io.flutter.plugin.common.PluginRegistry$Registrar)
+io.flutter.plugins.urllauncher.WebViewActivity:
+    public static final java.lang.String ACTION_CLOSE
+    static final java.lang.String ENABLE_DOM_EXTRA
+    static final java.lang.String ENABLE_JS_EXTRA
+    static final java.lang.String URL_EXTRA
 io.flutter.plugins.webviewflutter.BuildConfig
 io.flutter.plugins.webviewflutter.CustomViewCallbackFlutterApiImpl:
     void setApi(io.flutter.plugins.webviewflutter.GeneratedAndroidWebView$CustomViewCallbackFlutterApi)
@@ -26996,6 +27221,7 @@ androidx.appcompat.widget.FitWindowsViewGroup
 androidx.browser.customtabs.CustomTabsCallback:
     public void extraCallback(java.lang.String,android.os.Bundle)
     public android.os.Bundle extraCallbackWithResult(java.lang.String,android.os.Bundle)
+    public void onActivityResized(int,int,android.os.Bundle)
     public void onMessageChannelReady(android.os.Bundle)
     public void onNavigationEvent(int,android.os.Bundle)
     public void onPostMessage(java.lang.String,android.os.Bundle)
@@ -27005,6 +27231,7 @@ androidx.browser.customtabs.CustomTabsClient$2$2
 androidx.browser.customtabs.CustomTabsClient$2$3
 androidx.browser.customtabs.CustomTabsClient$2$4
 androidx.browser.customtabs.CustomTabsClient$2$5
+androidx.browser.customtabs.CustomTabsClient$2$6
 androidx.browser.customtabs.CustomTabsClient$2:
     final synthetic androidx.browser.customtabs.CustomTabsCallback val$callback
 androidx.constraintlayout.core.LinearSystem:
@@ -27421,20 +27648,19 @@ androidx.core.app.NotificationCompat$BubbleMetadata:
 androidx.core.app.NotificationCompat$Builder:
     androidx.core.app.NotificationCompat$BubbleMetadata mBubbleMetadata
     androidx.core.content.LocusIdCompat mLocusId
-androidx.core.app.NotificationCompatBuilder$$InternalSyntheticApiModelOutline$1$73cb8751ab51b21ad35dca8bb429f18dd92b113dd98fb852fe30e6efdb45c21f$14
 androidx.core.app.NotificationCompatJellybean:
     private static java.lang.reflect.Field sExtrasField
     private static boolean sExtrasFieldAccessFailed
     public static android.util.SparseArray buildActionExtrasMap(java.util.List)
     public static android.os.Bundle getExtras(android.app.Notification)
     public static android.os.Bundle writeActionAndGetExtras(android.app.Notification$Builder,androidx.core.app.NotificationCompat$Action)
-androidx.core.app.RemoteInput$Api26Impl$$InternalSyntheticApiModelOutline$3$4d9eadf30418bb102ccccfb521bf2b5ecdbb891fe0adeb138d38d18a75e7f8b7$0
-androidx.core.app.RemoteInput$Api26Impl$$InternalSyntheticApiModelOutline$3$652b21b2260b88548e108a363b9fcaf56776ff7642a320cfe357491561b6d4cc$0
-androidx.core.app.RemoteInput$Api26Impl$$InternalSyntheticApiModelOutline$3$bf9cde77d5e8fdceb133cb2db5a6537c4ee04dbb830dc7181f318427cf7ed005$0
-androidx.core.app.RemoteInput$Api26Impl$$InternalSyntheticApiModelOutline$3$e75ecb5064e52543d2e498b22dc672e1a40b299652c7e017dd638c3eeba62f4c$0
+androidx.core.app.RemoteInput$Api26Impl$$InternalSyntheticApiModelOutline$1$4d9eadf30418bb102ccccfb521bf2b5ecdbb891fe0adeb138d38d18a75e7f8b7$0
+androidx.core.app.RemoteInput$Api26Impl$$InternalSyntheticApiModelOutline$1$652b21b2260b88548e108a363b9fcaf56776ff7642a320cfe357491561b6d4cc$0
+androidx.core.app.RemoteInput$Api26Impl$$InternalSyntheticApiModelOutline$1$bf9cde77d5e8fdceb133cb2db5a6537c4ee04dbb830dc7181f318427cf7ed005$0
+androidx.core.app.RemoteInput$Api26Impl$$InternalSyntheticApiModelOutline$1$e75ecb5064e52543d2e498b22dc672e1a40b299652c7e017dd638c3eeba62f4c$0
 androidx.core.app.RemoteInput$Api26Impl
-androidx.core.app.RemoteInput$Api29Impl$$InternalSyntheticApiModelOutline$3$d3746ee3f324361ee2999a9f556003628247fa0745505baf8e59edc6f27c70b2$0
-androidx.core.app.RemoteInput$Api29Impl$$InternalSyntheticApiModelOutline$3$e5e38b49daf2c8d56afc79c1aad00972eb2a9b3b6be17da5d0454c7c4332e0d5$0
+androidx.core.app.RemoteInput$Api29Impl$$InternalSyntheticApiModelOutline$1$d3746ee3f324361ee2999a9f556003628247fa0745505baf8e59edc6f27c70b2$0
+androidx.core.app.RemoteInput$Api29Impl$$InternalSyntheticApiModelOutline$1$e5e38b49daf2c8d56afc79c1aad00972eb2a9b3b6be17da5d0454c7c4332e0d5$0
 androidx.core.app.RemoteInput$Api29Impl
 androidx.core.app.RemoteInput:
     public boolean getAllowFreeFormInput()
@@ -27763,6 +27989,8 @@ io.flutter.plugin.common.BinaryMessenger$-CC:
 io.flutter.plugin.platform.PlatformPlugin$PlatformPluginDelegate$-CC
 io.flutter.plugin.platform.VirtualDisplayController:
     private static java.lang.String TAG
+io.flutter.plugins.urllauncher.UrlLauncher:
+    static final synthetic boolean $assertionsDisabled
 io.flutter.view.VsyncWaiter:
     public static io.flutter.view.VsyncWaiter getInstance(float,io.flutter.embedding.engine.FlutterJNI)
 kotlin.coroutines.jvm.internal.CoroutineStackFrame:

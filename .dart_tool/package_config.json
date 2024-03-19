@@ -68,6 +68,12 @@
       "languageVersion": "2.19"
     },
     {
+      "name": "csslib",
+      "rootUri": "file:///Users/paulkindschi/.pub-cache/hosted/pub.dev/csslib-0.17.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.19"
+    },
+    {
       "name": "cupertino_icons",
       "rootUri": "file:///Users/paulkindschi/.pub-cache/hosted/pub.dev/cupertino_icons-1.0.6",
       "packageUri": "lib/",
@@ -104,6 +110,18 @@
       "languageVersion": "3.2"
     },
     {
+      "name": "flutter_html",
+      "rootUri": "file:///Users/paulkindschi/.pub-cache/hosted/pub.dev/flutter_html-3.0.0-beta.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
+      "name": "flutter_inappwebview",
+      "rootUri": "file:///Users/paulkindschi/.pub-cache/hosted/pub.dev/flutter_inappwebview-5.8.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.14"
+    },
+    {
       "name": "flutter_launcher_icons",
       "rootUri": "file:///Users/paulkindschi/.pub-cache/hosted/pub.dev/flutter_launcher_icons-0.9.3",
       "packageUri": "lib/",
@@ -138,6 +156,12 @@
       "rootUri": "file:///Users/paulkindschi/.pub-cache/hosted/pub.dev/google_mobile_ads-4.0.0",
       "packageUri": "lib/",
       "languageVersion": "2.15"
+    },
+    {
+      "name": "html",
+      "rootUri": "file:///Users/paulkindschi/.pub-cache/hosted/pub.dev/html-0.15.4",
+      "packageUri": "lib/",
+      "languageVersion": "2.19"
     },
     {
       "name": "http",
@@ -186,6 +210,12 @@
       "rootUri": "file:///Users/paulkindschi/.pub-cache/hosted/pub.dev/lints-3.0.0",
       "packageUri": "lib/",
       "languageVersion": "3.0"
+    },
+    {
+      "name": "list_counter",
+      "rootUri": "file:///Users/paulkindschi/.pub-cache/hosted/pub.dev/list_counter-1.0.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
     },
     {
       "name": "matcher",
@@ -518,13 +548,19 @@
       "languageVersion": "2.19"
     },
     {
+      "name": "youtube_plyr_iframe",
+      "rootUri": "file:///Users/paulkindschi/.pub-cache/hosted/pub.dev/youtube_plyr_iframe-2.0.7",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "oetzu",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "3.1"
     }
   ],
-  "generated": "2024-03-15T20:38:59.052212Z",
+  "generated": "2024-03-19T00:46:35.403549Z",
   "generator": "pub",
   "generatorVersion": "3.4.0-99.1.beta"
 }

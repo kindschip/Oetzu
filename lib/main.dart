@@ -18,6 +18,8 @@ import 'package:url_launcher/url_launcher.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'dart:html' as html;
 
+import 'package:youtube_plyr_iframe/youtube_plyr_iframe.dart';
+
 GlobalKey<NavigatorState> navigatorKey = GlobalKey<NavigatorState>();
 
 void main() {
@@ -216,7 +218,7 @@ class _MyHomePageState extends State<MyHomePage> {
       case 1:
         page = SplashScreen();
       case 2:
-        page = HighScorePage();
+        page = YouTubeVideoPage();
       case 3:
         page = InstructionsPage();
       default:
@@ -237,7 +239,7 @@ class _MyHomePageState extends State<MyHomePage> {
     var definition2 = context.watch<MyHomePageState>().definition;
     var score = context.watch<MyHomePageState>().score;
     return Scaffold(
-        appBar: (selectedIndex == 0 || selectedIndex == 2)
+        appBar: (selectedIndex == 0)
             ? AppBar(
                 //automaticallyImplyLeading: false, // Add this line
                 title: Column(
@@ -605,6 +607,25 @@ class GeneratorPage extends StatelessWidget {
               aspectRatio: 1.4,
               child: Keyboard7(),
             ),
+          ),
+          SizedBox(height: 20),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              ElevatedButton(
+                onPressed: () {
+                  myKey.currentState?.setSelectedIndex(2);
+                },
+                child: Text('Show Video'),
+              ),
+              SizedBox(width: 20),
+              ElevatedButton(
+                onPressed: () {
+                  myKey.currentState?.setSelectedIndex(3);
+                },
+                child: Text('Instructions'),
+              ),
+            ],
           ),
           SizedBox(height: 20),
           Row(
@@ -1131,6 +1152,69 @@ class MyInstructionsScrollView extends StatelessWidget {
   }
 }
 
+class YouTubeVideoPage extends StatelessWidget {
+  const YouTubeVideoPage({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return YouTubeVideoPageView();
+  }
+}
+
+class YouTubeVideoPageView extends StatelessWidget {
+  const YouTubeVideoPageView({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: Column(
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        children: <Widget>[
+          Padding(
+            padding: EdgeInsets.only(top: 70.0),
+          ),
+          Flexible(
+            flex: 9,
+            child: YouTubeWidget(),
+          ),
+          Expanded(
+            flex: 1,
+            child: ElevatedButton(
+              onPressed: () {
+                myKey.currentState?.setSelectedIndex(0);
+                //Navigator.pop(context);
+              },
+              child: Text('Back to the Game'),
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+
+
+class YouTubeWidget extends StatelessWidget {
+  const YouTubeWidget({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    YoutubePlayerController controller = YoutubePlayerController(
+      initialVideoId: '1xd-hvq7OIQ', // Add videoID.
+      params: YoutubePlayerParams(
+        showControls: true,
+        showFullscreenButton: true,
+        autoPlay: true, 
+      ),
+    );
+
+    return YoutubePlayerIFrame(
+      controller: controller,
+      aspectRatio: 16 / 9,
+    );
+  }
+}
 class HighScoreNotifier extends ChangeNotifier {
   final List<List<String>> _items =
       List.generate(3, (i) => List.generate(6, (j) => 'Item ${i * 6 + j + 1}'));

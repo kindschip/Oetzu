@@ -4,7 +4,7 @@
             "outputFile": "com.paulsgames.oetzu.app-mergeReleaseResources-34:/values-v21/values-v21.xml",
             "map": [
                 {
-                    "source": "/Users/paulkindschi/.gradle/caches/transforms-3/2c53e216d32933f1ec8d3347f9ca7f14/transformed/core-1.8.0/res/values-v21/values-v21.xml",
+                    "source": "/Users/paulkindschi/.gradle/caches/transforms-3/2364e86895172849ce70bd47a99e09e1/transformed/core-1.10.1/res/values-v21/values-v21.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,13",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",

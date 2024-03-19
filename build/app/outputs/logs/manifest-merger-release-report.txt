@@ -3,8 +3,12 @@ application
 INJECTED from /Users/paulkindschi/pauls flutter/oetzu/android/app/src/main/AndroidManifest.xml:2:5-38:19
 MERGED from [:google_mobile_ads] /Users/paulkindschi/pauls flutter/oetzu/build/google_mobile_ads/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-15:19
 MERGED from [:google_mobile_ads] /Users/paulkindschi/pauls flutter/oetzu/build/google_mobile_ads/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-15:19
+MERGED from [:url_launcher_android] /Users/paulkindschi/pauls flutter/oetzu/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-14:19
+MERGED from [:url_launcher_android] /Users/paulkindschi/pauls flutter/oetzu/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-14:19
 MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/paulkindschi/.gradle/caches/transforms-3/481892d44f287f72dbac3fc60244fb2e/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:22:5-26:19
 MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/paulkindschi/.gradle/caches/transforms-3/481892d44f287f72dbac3fc60244fb2e/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/paulkindschi/.gradle/caches/transforms-3/f6777bb32c5be4fb3b4a2292ec2570fd/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/paulkindschi/.gradle/caches/transforms-3/f6777bb32c5be4fb3b4a2292ec2570fd/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
 MERGED from [com.google.android.gms:play-services-ads-lite:22.5.0] /Users/paulkindschi/.gradle/caches/transforms-3/ed637e88ef493b2cc865c8942aa3d665/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:53:5-85:19
 MERGED from [com.google.android.gms:play-services-ads-lite:22.5.0] /Users/paulkindschi/.gradle/caches/transforms-3/ed637e88ef493b2cc865c8942aa3d665/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:53:5-85:19
 MERGED from [com.google.android.gms:play-services-ads-base:22.5.0] /Users/paulkindschi/.gradle/caches/transforms-3/7540facd2215a8584da3602d30d92c48/transformed/jetified-play-services-ads-base-22.5.0/AndroidManifest.xml:7:5-20
@@ -21,14 +25,12 @@ MERGED from [com.google.android.gms:play-services-measurement-base:20.1.2] /User
 MERGED from [com.google.android.gms:play-services-measurement-base:20.1.2] /Users/paulkindschi/.gradle/caches/transforms-3/851fdb3bacb85c99b9bf7af295f17a27/transformed/jetified-play-services-measurement-base-20.1.2/AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-basement:18.2.0] /Users/paulkindschi/.gradle/caches/transforms-3/04043c2d558b238081f552f5737568ee/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:20:5-24:19
 MERGED from [com.google.android.gms:play-services-basement:18.2.0] /Users/paulkindschi/.gradle/caches/transforms-3/04043c2d558b238081f552f5737568ee/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:20:5-24:19
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/paulkindschi/.gradle/caches/transforms-3/f6777bb32c5be4fb3b4a2292ec2570fd/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/paulkindschi/.gradle/caches/transforms-3/f6777bb32c5be4fb3b4a2292ec2570fd/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
-MERGED from [androidx.work:work-runtime:2.7.0] /Users/paulkindschi/.gradle/caches/transforms-3/cce52f8753c7932edead92f0f35b1ffe/transformed/work-runtime-2.7.0/AndroidManifest.xml:30:5-143:19
-MERGED from [androidx.work:work-runtime:2.7.0] /Users/paulkindschi/.gradle/caches/transforms-3/cce52f8753c7932edead92f0f35b1ffe/transformed/work-runtime-2.7.0/AndroidManifest.xml:30:5-143:19
 MERGED from [androidx.window:window:1.0.0-beta04] /Users/paulkindschi/.gradle/caches/transforms-3/87da41db39e09187ba992a68ecbb6aeb/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
 MERGED from [androidx.window:window:1.0.0-beta04] /Users/paulkindschi/.gradle/caches/transforms-3/87da41db39e09187ba992a68ecbb6aeb/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
-MERGED from [androidx.core:core:1.8.0] /Users/paulkindschi/.gradle/caches/transforms-3/2c53e216d32933f1ec8d3347f9ca7f14/transformed/core-1.8.0/AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.8.0] /Users/paulkindschi/.gradle/caches/transforms-3/2c53e216d32933f1ec8d3347f9ca7f14/transformed/core-1.8.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.work:work-runtime:2.7.0] /Users/paulkindschi/.gradle/caches/transforms-3/cce52f8753c7932edead92f0f35b1ffe/transformed/work-runtime-2.7.0/AndroidManifest.xml:30:5-143:19
+MERGED from [androidx.work:work-runtime:2.7.0] /Users/paulkindschi/.gradle/caches/transforms-3/cce52f8753c7932edead92f0f35b1ffe/transformed/work-runtime-2.7.0/AndroidManifest.xml:30:5-143:19
+MERGED from [androidx.core:core:1.10.1] /Users/paulkindschi/.gradle/caches/transforms-3/2364e86895172849ce70bd47a99e09e1/transformed/core-1.10.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.10.1] /Users/paulkindschi/.gradle/caches/transforms-3/2364e86895172849ce70bd47a99e09e1/transformed/core-1.10.1/AndroidManifest.xml:28:5-89
 MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/paulkindschi/.gradle/caches/transforms-3/c445ef894fd2475811e54a0edd9e9da7/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/paulkindschi/.gradle/caches/transforms-3/c445ef894fd2475811e54a0edd9e9da7/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/paulkindschi/.gradle/caches/transforms-3/52e5b6b5ca0f08ab401857b30591d2a0/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:23:5-53:19
@@ -40,7 +42,7 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/paul
 MERGED from [androidx.room:room-runtime:2.2.5] /Users/paulkindschi/.gradle/caches/transforms-3/62992dde6775df0d7a2e017f8895c6d8/transformed/room-runtime-2.2.5/AndroidManifest.xml:24:5-29:19
 MERGED from [androidx.room:room-runtime:2.2.5] /Users/paulkindschi/.gradle/caches/transforms-3/62992dde6775df0d7a2e017f8895c6d8/transformed/room-runtime-2.2.5/AndroidManifest.xml:24:5-29:19
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.8.0] /Users/paulkindschi/.gradle/caches/transforms-3/2c53e216d32933f1ec8d3347f9ca7f14/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+		ADDED from [androidx.core:core:1.10.1] /Users/paulkindschi/.gradle/caches/transforms-3/2364e86895172849ce70bd47a99e09e1/transformed/core-1.10.1/AndroidManifest.xml:28:18-86
 	android:label
 		ADDED from /Users/paulkindschi/pauls flutter/oetzu/android/app/src/main/AndroidManifest.xml:3:9-30
 	android:icon
@@ -55,6 +57,7 @@ INJECTED from /Users/paulkindschi/pauls flutter/oetzu/android/app/src/main/Andro
 INJECTED from /Users/paulkindschi/pauls flutter/oetzu/android/app/src/main/AndroidManifest.xml:1:1-50:12
 MERGED from [:shared_preferences_android] /Users/paulkindschi/pauls flutter/oetzu/build/shared_preferences_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
 MERGED from [:google_mobile_ads] /Users/paulkindschi/pauls flutter/oetzu/build/google_mobile_ads/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-17:12
+MERGED from [:url_launcher_android] /Users/paulkindschi/pauls flutter/oetzu/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-16:12
 MERGED from [:audio_session] /Users/paulkindschi/pauls flutter/oetzu/build/audio_session/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
 MERGED from [:soundpool] /Users/paulkindschi/pauls flutter/oetzu/build/soundpool/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
 MERGED from [:webview_flutter_android] /Users/paulkindschi/pauls flutter/oetzu/build/webview_flutter_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
@@ -62,6 +65,9 @@ MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/paulkindschi/.grad
 MERGED from [com.google.android.gms:play-services-ads:22.5.0] /Users/paulkindschi/.gradle/caches/transforms-3/d7a050cae1549ec31632e8259bec936c/transformed/jetified-play-services-ads-22.5.0/AndroidManifest.xml:17:1-25:12
 MERGED from [androidx.privacysandbox.ads:ads-adservices-java:1.0.0-beta05] /Users/paulkindschi/.gradle/caches/transforms-3/0e89b257ad1b5b2583d4bbde9834ead8/transformed/jetified-ads-adservices-java-1.0.0-beta05/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/paulkindschi/.gradle/caches/transforms-3/481892d44f287f72dbac3fc60244fb2e/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/paulkindschi/.gradle/caches/transforms-3/f6777bb32c5be4fb3b4a2292ec2570fd/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.browser:browser:1.5.0] /Users/paulkindschi/.gradle/caches/transforms-3/98c693a90947b0856f9f80e4a1e13a3d/transformed/browser-1.5.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.webkit:webkit:1.7.0] /Users/paulkindschi/.gradle/caches/transforms-3/1d68ab390b83c80bf60ed42283f3a2a9/transformed/webkit-1.7.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.gms:play-services-ads-lite:22.5.0] /Users/paulkindschi/.gradle/caches/transforms-3/ed637e88ef493b2cc865c8942aa3d665/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:17:1-87:12
 MERGED from [com.google.android.ump:user-messaging-platform:2.1.0] /Users/paulkindschi/.gradle/caches/transforms-3/21f03d6730bbbed81ea12d0c9aaa094b/transformed/jetified-user-messaging-platform-2.1.0/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.gms:play-services-ads-base:22.5.0] /Users/paulkindschi/.gradle/caches/transforms-3/7540facd2215a8584da3602d30d92c48/transformed/jetified-play-services-ads-base-22.5.0/AndroidManifest.xml:2:1-9:12
@@ -72,44 +78,41 @@ MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/paulkinds
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] /Users/paulkindschi/.gradle/caches/transforms-3/c0bf3b0aa3ff5180300bb180ff5c9c44/transformed/jetified-play-services-measurement-sdk-api-20.1.2/AndroidManifest.xml:17:1-28:12
 MERGED from [com.google.android.gms:play-services-measurement-base:20.1.2] /Users/paulkindschi/.gradle/caches/transforms-3/851fdb3bacb85c99b9bf7af295f17a27/transformed/jetified-play-services-measurement-base-20.1.2/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-basement:18.2.0] /Users/paulkindschi/.gradle/caches/transforms-3/04043c2d558b238081f552f5737568ee/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:16:1-26:12
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/paulkindschi/.gradle/caches/transforms-3/f6777bb32c5be4fb3b4a2292ec2570fd/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/paulkindschi/.gradle/caches/transforms-3/f37dcfc27bbad21091b9d2b2b7707f3c/transformed/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.fragment:fragment:1.1.0] /Users/paulkindschi/.gradle/caches/transforms-3/fb9dab4599540377813169556f9bbabd/transformed/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.loader:loader:1.0.0] /Users/paulkindschi/.gradle/caches/transforms-3/c159bcd9c8492248eb83a6cac985c4a9/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.activity:activity:1.0.0] /Users/paulkindschi/.gradle/caches/transforms-3/a94da4696aa18d336e74e7d325f975f2/transformed/jetified-activity-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.work:work-runtime:2.7.0] /Users/paulkindschi/.gradle/caches/transforms-3/cce52f8753c7932edead92f0f35b1ffe/transformed/work-runtime-2.7.0/AndroidManifest.xml:17:1-145:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /Users/paulkindschi/.gradle/caches/transforms-3/379924732776ef90ad4a65ce3ad2a2a2/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-service:2.6.2] /Users/paulkindschi/.gradle/caches/transforms-3/0fd8b4aae8e36e84458d3ad0e334daf0/transformed/jetified-lifecycle-service-2.6.2/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] /Users/paulkindschi/.gradle/caches/transforms-3/7883e2f49040a15f9e2f0676167abd9d/transformed/lifecycle-livedata-2.6.2/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /Users/paulkindschi/.gradle/caches/transforms-3/b42b4ce6f2c87d56cf6f0a1bf5e8dd3a/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.webkit:webkit:1.7.0] /Users/paulkindschi/.gradle/caches/transforms-3/1d68ab390b83c80bf60ed42283f3a2a9/transformed/webkit-1.7.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.browser:browser:1.4.0] /Users/paulkindschi/.gradle/caches/transforms-3/50bf694f6c2ba05b2adb8db4216573af/transformed/browser-1.4.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.media2:media2-session:1.2.1] /Users/paulkindschi/.gradle/caches/transforms-3/cb8e94b959fbe467b1577bec3d0fc97e/transformed/jetified-media2-session-1.2.1/AndroidManifest.xml:17:1-36:12
 MERGED from [androidx.media2:media2-common:1.2.1] /Users/paulkindschi/.gradle/caches/transforms-3/351a0554c0b45ab6a36c3966e5eaf6d4/transformed/jetified-media2-common-1.2.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/paulkindschi/.gradle/caches/transforms-3/4fa3735ab0c9d049eeadfdf4f75dbec1/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/paulkindschi/.gradle/caches/transforms-3/c159bcd9c8492248eb83a6cac985c4a9/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /Users/paulkindschi/.gradle/caches/transforms-3/a94da4696aa18d336e74e7d325f975f2/transformed/jetified-activity-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.window:window:1.0.0-beta04] /Users/paulkindschi/.gradle/caches/transforms-3/87da41db39e09187ba992a68ecbb6aeb/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:17:1-33:12
-MERGED from [androidx.core:core-ktx:1.8.0] /Users/paulkindschi/.gradle/caches/transforms-3/541dbe2746d2384172969681ff81471a/transformed/jetified-core-ktx-1.8.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.work:work-runtime:2.7.0] /Users/paulkindschi/.gradle/caches/transforms-3/cce52f8753c7932edead92f0f35b1ffe/transformed/work-runtime-2.7.0/AndroidManifest.xml:17:1-145:12
 MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/paulkindschi/.gradle/caches/transforms-3/823355106d13b7af188cbfa77f3e4be2/transformed/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/paulkindschi/.gradle/caches/transforms-3/fb099fbc35b4d9256e3830ddf02fb56f/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.10.1] /Users/paulkindschi/.gradle/caches/transforms-3/c1ff83d0dbca430af92a26a47b233819/transformed/jetified-core-ktx-1.10.1/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.media:media:1.4.1] /Users/paulkindschi/.gradle/caches/transforms-3/d88a5a148ebe98ece152eee11ebf7502/transformed/media-1.4.1/AndroidManifest.xml:17:1-30:12
 MERGED from [androidx.customview:customview:1.0.0] /Users/paulkindschi/.gradle/caches/transforms-3/5545076d5e693e53f629c55b1a4656e3/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/paulkindschi/.gradle/caches/transforms-3/7086a6b11d10dde2544bc3fca77673db/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/paulkindschi/.gradle/caches/transforms-3/9db9dca214c13ad84aa0c7aa31115a73/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.core:core:1.8.0] /Users/paulkindschi/.gradle/caches/transforms-3/2c53e216d32933f1ec8d3347f9ca7f14/transformed/core-1.8.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.core:core:1.10.1] /Users/paulkindschi/.gradle/caches/transforms-3/2364e86895172849ce70bd47a99e09e1/transformed/core-1.10.1/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /Users/paulkindschi/.gradle/caches/transforms-3/379924732776ef90ad4a65ce3ad2a2a2/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.6.2] /Users/paulkindschi/.gradle/caches/transforms-3/0fd8b4aae8e36e84458d3ad0e334daf0/transformed/jetified-lifecycle-service-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] /Users/paulkindschi/.gradle/caches/transforms-3/7883e2f49040a15f9e2f0676167abd9d/transformed/lifecycle-livedata-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /Users/paulkindschi/.gradle/caches/transforms-3/b42b4ce6f2c87d56cf6f0a1bf5e8dd3a/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /Users/paulkindschi/.gradle/caches/transforms-3/6c61f48e5f9e850fc4c5b4704ec23f50/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/paulkindschi/.gradle/caches/transforms-3/c445ef894fd2475811e54a0edd9e9da7/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:17:1-35:12
 MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/paulkindschi/.gradle/caches/transforms-3/f1d8591068b29618b547f2653649f9e6/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/paulkindschi/.gradle/caches/transforms-3/52e5b6b5ca0f08ab401857b30591d2a0/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:17:1-55:12
 MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/paulkindschi/.gradle/caches/transforms-3/b689449951ac718ab5f87b749355e157/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
 MERGED from [androidx.tracing:tracing:1.0.0] /Users/paulkindschi/.gradle/caches/transforms-3/7b1348094afd2f4073409ed0b208aa1a/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/paulkindschi/.gradle/caches/transforms-3/6b08161113d9ebff22654be2f4ca403b/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/paulkindschi/.gradle/caches/transforms-3/dd34f0618aafb5c5092b2bcc63899a8c/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/paulkindschi/.gradle/caches/transforms-3/6b08161113d9ebff22654be2f4ca403b/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/paulkindschi/.gradle/caches/transforms-3/3cb39933aa32a355eecf01d0ac9be907/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.room:room-runtime:2.2.5] /Users/paulkindschi/.gradle/caches/transforms-3/62992dde6775df0d7a2e017f8895c6d8/transformed/room-runtime-2.2.5/AndroidManifest.xml:17:1-31:12
 MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/paulkindschi/.gradle/caches/transforms-3/3fc4f437ac585f77afa232a7901fd7ca/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/paulkindschi/.gradle/caches/transforms-3/ee8c6221f01e4f1b847ce4d45842eb43/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/paulkindschi/.gradle/caches/transforms-3/279ecb34ec8e3a3f3695ed7c6f0f68a8/transformed/sqlite-2.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/paulkindschi/.gradle/caches/transforms-3/4529cd9db265d21866bb643ee8d397a7/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/paulkindschi/.gradle/caches/transforms-3/12ca39bdf43ed279c8ffbbabfe31b9a6/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
 INJECTED from /Users/paulkindschi/pauls flutter/oetzu/android/app/src/main/AndroidManifest.xml:1:1-50:12
 INJECTED from /Users/paulkindschi/pauls flutter/oetzu/android/app/src/main/AndroidManifest.xml:1:1-50:12
 INJECTED from /Users/paulkindschi/pauls flutter/oetzu/android/app/src/main/AndroidManifest.xml:1:1-50:12
@@ -153,6 +156,8 @@ MERGED from [:shared_preferences_android] /Users/paulkindschi/pauls flutter/oetz
 MERGED from [:shared_preferences_android] /Users/paulkindschi/pauls flutter/oetzu/build/shared_preferences_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
 MERGED from [:google_mobile_ads] /Users/paulkindschi/pauls flutter/oetzu/build/google_mobile_ads/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
 MERGED from [:google_mobile_ads] /Users/paulkindschi/pauls flutter/oetzu/build/google_mobile_ads/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:url_launcher_android] /Users/paulkindschi/pauls flutter/oetzu/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:url_launcher_android] /Users/paulkindschi/pauls flutter/oetzu/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
 MERGED from [:audio_session] /Users/paulkindschi/pauls flutter/oetzu/build/audio_session/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
 MERGED from [:audio_session] /Users/paulkindschi/pauls flutter/oetzu/build/audio_session/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
 MERGED from [:soundpool] /Users/paulkindschi/pauls flutter/oetzu/build/soundpool/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
@@ -167,6 +172,12 @@ MERGED from [androidx.privacysandbox.ads:ads-adservices-java:1.0.0-beta05] /User
 MERGED from [androidx.privacysandbox.ads:ads-adservices-java:1.0.0-beta05] /Users/paulkindschi/.gradle/caches/transforms-3/0e89b257ad1b5b2583d4bbde9834ead8/transformed/jetified-ads-adservices-java-1.0.0-beta05/AndroidManifest.xml:5:5-44
 MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/paulkindschi/.gradle/caches/transforms-3/481892d44f287f72dbac3fc60244fb2e/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:20:5-44
 MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/paulkindschi/.gradle/caches/transforms-3/481892d44f287f72dbac3fc60244fb2e/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/paulkindschi/.gradle/caches/transforms-3/f6777bb32c5be4fb3b4a2292ec2570fd/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/paulkindschi/.gradle/caches/transforms-3/f6777bb32c5be4fb3b4a2292ec2570fd/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.browser:browser:1.5.0] /Users/paulkindschi/.gradle/caches/transforms-3/98c693a90947b0856f9f80e4a1e13a3d/transformed/browser-1.5.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.5.0] /Users/paulkindschi/.gradle/caches/transforms-3/98c693a90947b0856f9f80e4a1e13a3d/transformed/browser-1.5.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.webkit:webkit:1.7.0] /Users/paulkindschi/.gradle/caches/transforms-3/1d68ab390b83c80bf60ed42283f3a2a9/transformed/webkit-1.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.webkit:webkit:1.7.0] /Users/paulkindschi/.gradle/caches/transforms-3/1d68ab390b83c80bf60ed42283f3a2a9/transformed/webkit-1.7.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-ads-lite:22.5.0] /Users/paulkindschi/.gradle/caches/transforms-3/ed637e88ef493b2cc865c8942aa3d665/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:21:5-44
 MERGED from [com.google.android.gms:play-services-ads-lite:22.5.0] /Users/paulkindschi/.gradle/caches/transforms-3/ed637e88ef493b2cc865c8942aa3d665/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:21:5-44
 MERGED from [com.google.android.ump:user-messaging-platform:2.1.0] /Users/paulkindschi/.gradle/caches/transforms-3/21f03d6730bbbed81ea12d0c9aaa094b/transformed/jetified-user-messaging-platform-2.1.0/AndroidManifest.xml:5:5-44
@@ -187,44 +198,30 @@ MERGED from [com.google.android.gms:play-services-measurement-base:20.1.2] /User
 MERGED from [com.google.android.gms:play-services-measurement-base:20.1.2] /Users/paulkindschi/.gradle/caches/transforms-3/851fdb3bacb85c99b9bf7af295f17a27/transformed/jetified-play-services-measurement-base-20.1.2/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-basement:18.2.0] /Users/paulkindschi/.gradle/caches/transforms-3/04043c2d558b238081f552f5737568ee/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:18:5-43
 MERGED from [com.google.android.gms:play-services-basement:18.2.0] /Users/paulkindschi/.gradle/caches/transforms-3/04043c2d558b238081f552f5737568ee/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:18:5-43
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/paulkindschi/.gradle/caches/transforms-3/f6777bb32c5be4fb3b4a2292ec2570fd/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/paulkindschi/.gradle/caches/transforms-3/f6777bb32c5be4fb3b4a2292ec2570fd/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/paulkindschi/.gradle/caches/transforms-3/f37dcfc27bbad21091b9d2b2b7707f3c/transformed/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/paulkindschi/.gradle/caches/transforms-3/f37dcfc27bbad21091b9d2b2b7707f3c/transformed/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.1.0] /Users/paulkindschi/.gradle/caches/transforms-3/fb9dab4599540377813169556f9bbabd/transformed/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.1.0] /Users/paulkindschi/.gradle/caches/transforms-3/fb9dab4599540377813169556f9bbabd/transformed/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.loader:loader:1.0.0] /Users/paulkindschi/.gradle/caches/transforms-3/c159bcd9c8492248eb83a6cac985c4a9/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/paulkindschi/.gradle/caches/transforms-3/c159bcd9c8492248eb83a6cac985c4a9/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.0.0] /Users/paulkindschi/.gradle/caches/transforms-3/a94da4696aa18d336e74e7d325f975f2/transformed/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.0.0] /Users/paulkindschi/.gradle/caches/transforms-3/a94da4696aa18d336e74e7d325f975f2/transformed/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.work:work-runtime:2.7.0] /Users/paulkindschi/.gradle/caches/transforms-3/cce52f8753c7932edead92f0f35b1ffe/transformed/work-runtime-2.7.0/AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.work:work-runtime:2.7.0] /Users/paulkindschi/.gradle/caches/transforms-3/cce52f8753c7932edead92f0f35b1ffe/transformed/work-runtime-2.7.0/AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /Users/paulkindschi/.gradle/caches/transforms-3/379924732776ef90ad4a65ce3ad2a2a2/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /Users/paulkindschi/.gradle/caches/transforms-3/379924732776ef90ad4a65ce3ad2a2a2/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-service:2.6.2] /Users/paulkindschi/.gradle/caches/transforms-3/0fd8b4aae8e36e84458d3ad0e334daf0/transformed/jetified-lifecycle-service-2.6.2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-service:2.6.2] /Users/paulkindschi/.gradle/caches/transforms-3/0fd8b4aae8e36e84458d3ad0e334daf0/transformed/jetified-lifecycle-service-2.6.2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] /Users/paulkindschi/.gradle/caches/transforms-3/7883e2f49040a15f9e2f0676167abd9d/transformed/lifecycle-livedata-2.6.2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] /Users/paulkindschi/.gradle/caches/transforms-3/7883e2f49040a15f9e2f0676167abd9d/transformed/lifecycle-livedata-2.6.2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /Users/paulkindschi/.gradle/caches/transforms-3/b42b4ce6f2c87d56cf6f0a1bf5e8dd3a/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /Users/paulkindschi/.gradle/caches/transforms-3/b42b4ce6f2c87d56cf6f0a1bf5e8dd3a/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.webkit:webkit:1.7.0] /Users/paulkindschi/.gradle/caches/transforms-3/1d68ab390b83c80bf60ed42283f3a2a9/transformed/webkit-1.7.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.webkit:webkit:1.7.0] /Users/paulkindschi/.gradle/caches/transforms-3/1d68ab390b83c80bf60ed42283f3a2a9/transformed/webkit-1.7.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.browser:browser:1.4.0] /Users/paulkindschi/.gradle/caches/transforms-3/50bf694f6c2ba05b2adb8db4216573af/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.browser:browser:1.4.0] /Users/paulkindschi/.gradle/caches/transforms-3/50bf694f6c2ba05b2adb8db4216573af/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.media2:media2-session:1.2.1] /Users/paulkindschi/.gradle/caches/transforms-3/cb8e94b959fbe467b1577bec3d0fc97e/transformed/jetified-media2-session-1.2.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.media2:media2-session:1.2.1] /Users/paulkindschi/.gradle/caches/transforms-3/cb8e94b959fbe467b1577bec3d0fc97e/transformed/jetified-media2-session-1.2.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.media2:media2-common:1.2.1] /Users/paulkindschi/.gradle/caches/transforms-3/351a0554c0b45ab6a36c3966e5eaf6d4/transformed/jetified-media2-common-1.2.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.media2:media2-common:1.2.1] /Users/paulkindschi/.gradle/caches/transforms-3/351a0554c0b45ab6a36c3966e5eaf6d4/transformed/jetified-media2-common-1.2.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/paulkindschi/.gradle/caches/transforms-3/4fa3735ab0c9d049eeadfdf4f75dbec1/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/paulkindschi/.gradle/caches/transforms-3/4fa3735ab0c9d049eeadfdf4f75dbec1/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/paulkindschi/.gradle/caches/transforms-3/c159bcd9c8492248eb83a6cac985c4a9/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/paulkindschi/.gradle/caches/transforms-3/c159bcd9c8492248eb83a6cac985c4a9/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /Users/paulkindschi/.gradle/caches/transforms-3/a94da4696aa18d336e74e7d325f975f2/transformed/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/paulkindschi/.gradle/caches/transforms-3/a94da4696aa18d336e74e7d325f975f2/transformed/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.window:window:1.0.0-beta04] /Users/paulkindschi/.gradle/caches/transforms-3/87da41db39e09187ba992a68ecbb6aeb/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.window:window:1.0.0-beta04] /Users/paulkindschi/.gradle/caches/transforms-3/87da41db39e09187ba992a68ecbb6aeb/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core-ktx:1.8.0] /Users/paulkindschi/.gradle/caches/transforms-3/541dbe2746d2384172969681ff81471a/transformed/jetified-core-ktx-1.8.0/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.core:core-ktx:1.8.0] /Users/paulkindschi/.gradle/caches/transforms-3/541dbe2746d2384172969681ff81471a/transformed/jetified-core-ktx-1.8.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.work:work-runtime:2.7.0] /Users/paulkindschi/.gradle/caches/transforms-3/cce52f8753c7932edead92f0f35b1ffe/transformed/work-runtime-2.7.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.work:work-runtime:2.7.0] /Users/paulkindschi/.gradle/caches/transforms-3/cce52f8753c7932edead92f0f35b1ffe/transformed/work-runtime-2.7.0/AndroidManifest.xml:21:5-23:41
 MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/paulkindschi/.gradle/caches/transforms-3/823355106d13b7af188cbfa77f3e4be2/transformed/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/paulkindschi/.gradle/caches/transforms-3/823355106d13b7af188cbfa77f3e4be2/transformed/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/paulkindschi/.gradle/caches/transforms-3/fb099fbc35b4d9256e3830ddf02fb56f/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/paulkindschi/.gradle/caches/transforms-3/fb099fbc35b4d9256e3830ddf02fb56f/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.10.1] /Users/paulkindschi/.gradle/caches/transforms-3/c1ff83d0dbca430af92a26a47b233819/transformed/jetified-core-ktx-1.10.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.10.1] /Users/paulkindschi/.gradle/caches/transforms-3/c1ff83d0dbca430af92a26a47b233819/transformed/jetified-core-ktx-1.10.1/AndroidManifest.xml:5:5-44
 MERGED from [androidx.media:media:1.4.1] /Users/paulkindschi/.gradle/caches/transforms-3/d88a5a148ebe98ece152eee11ebf7502/transformed/media-1.4.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.media:media:1.4.1] /Users/paulkindschi/.gradle/caches/transforms-3/d88a5a148ebe98ece152eee11ebf7502/transformed/media-1.4.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.customview:customview:1.0.0] /Users/paulkindschi/.gradle/caches/transforms-3/5545076d5e693e53f629c55b1a4656e3/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
@@ -233,8 +230,16 @@ MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/paulk
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/paulkindschi/.gradle/caches/transforms-3/7086a6b11d10dde2544bc3fca77673db/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/paulkindschi/.gradle/caches/transforms-3/9db9dca214c13ad84aa0c7aa31115a73/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/paulkindschi/.gradle/caches/transforms-3/9db9dca214c13ad84aa0c7aa31115a73/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.8.0] /Users/paulkindschi/.gradle/caches/transforms-3/2c53e216d32933f1ec8d3347f9ca7f14/transformed/core-1.8.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.8.0] /Users/paulkindschi/.gradle/caches/transforms-3/2c53e216d32933f1ec8d3347f9ca7f14/transformed/core-1.8.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.10.1] /Users/paulkindschi/.gradle/caches/transforms-3/2364e86895172849ce70bd47a99e09e1/transformed/core-1.10.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.10.1] /Users/paulkindschi/.gradle/caches/transforms-3/2364e86895172849ce70bd47a99e09e1/transformed/core-1.10.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /Users/paulkindschi/.gradle/caches/transforms-3/379924732776ef90ad4a65ce3ad2a2a2/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /Users/paulkindschi/.gradle/caches/transforms-3/379924732776ef90ad4a65ce3ad2a2a2/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.6.2] /Users/paulkindschi/.gradle/caches/transforms-3/0fd8b4aae8e36e84458d3ad0e334daf0/transformed/jetified-lifecycle-service-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.6.2] /Users/paulkindschi/.gradle/caches/transforms-3/0fd8b4aae8e36e84458d3ad0e334daf0/transformed/jetified-lifecycle-service-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] /Users/paulkindschi/.gradle/caches/transforms-3/7883e2f49040a15f9e2f0676167abd9d/transformed/lifecycle-livedata-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] /Users/paulkindschi/.gradle/caches/transforms-3/7883e2f49040a15f9e2f0676167abd9d/transformed/lifecycle-livedata-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /Users/paulkindschi/.gradle/caches/transforms-3/b42b4ce6f2c87d56cf6f0a1bf5e8dd3a/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /Users/paulkindschi/.gradle/caches/transforms-3/b42b4ce6f2c87d56cf6f0a1bf5e8dd3a/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /Users/paulkindschi/.gradle/caches/transforms-3/6c61f48e5f9e850fc4c5b4704ec23f50/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:5:5-44
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /Users/paulkindschi/.gradle/caches/transforms-3/6c61f48e5f9e850fc4c5b4704ec23f50/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:5:5-44
 MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/paulkindschi/.gradle/caches/transforms-3/c445ef894fd2475811e54a0edd9e9da7/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:21:5-44
@@ -247,10 +252,10 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/paulkindschi/.gradle
 MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/paulkindschi/.gradle/caches/transforms-3/b689449951ac718ab5f87b749355e157/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
 MERGED from [androidx.tracing:tracing:1.0.0] /Users/paulkindschi/.gradle/caches/transforms-3/7b1348094afd2f4073409ed0b208aa1a/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.tracing:tracing:1.0.0] /Users/paulkindschi/.gradle/caches/transforms-3/7b1348094afd2f4073409ed0b208aa1a/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/paulkindschi/.gradle/caches/transforms-3/6b08161113d9ebff22654be2f4ca403b/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/paulkindschi/.gradle/caches/transforms-3/6b08161113d9ebff22654be2f4ca403b/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/paulkindschi/.gradle/caches/transforms-3/dd34f0618aafb5c5092b2bcc63899a8c/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/paulkindschi/.gradle/caches/transforms-3/dd34f0618aafb5c5092b2bcc63899a8c/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/paulkindschi/.gradle/caches/transforms-3/6b08161113d9ebff22654be2f4ca403b/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/paulkindschi/.gradle/caches/transforms-3/6b08161113d9ebff22654be2f4ca403b/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/paulkindschi/.gradle/caches/transforms-3/3cb39933aa32a355eecf01d0ac9be907/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/paulkindschi/.gradle/caches/transforms-3/3cb39933aa32a355eecf01d0ac9be907/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.room:room-runtime:2.2.5] /Users/paulkindschi/.gradle/caches/transforms-3/62992dde6775df0d7a2e017f8895c6d8/transformed/room-runtime-2.2.5/AndroidManifest.xml:20:5-22:41
@@ -261,8 +266,8 @@ MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/paulkindschi/.gradle
 MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/paulkindschi/.gradle/caches/transforms-3/ee8c6221f01e4f1b847ce4d45842eb43/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/paulkindschi/.gradle/caches/transforms-3/279ecb34ec8e3a3f3695ed7c6f0f68a8/transformed/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/paulkindschi/.gradle/caches/transforms-3/279ecb34ec8e3a3f3695ed7c6f0f68a8/transformed/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/paulkindschi/.gradle/caches/transforms-3/4529cd9db265d21866bb643ee8d397a7/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/paulkindschi/.gradle/caches/transforms-3/4529cd9db265d21866bb643ee8d397a7/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/paulkindschi/.gradle/caches/transforms-3/12ca39bdf43ed279c8ffbbabfe31b9a6/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/paulkindschi/.gradle/caches/transforms-3/12ca39bdf43ed279c8ffbbabfe31b9a6/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
 INJECTED from /Users/paulkindschi/pauls flutter/oetzu/android/app/src/main/AndroidManifest.xml
 INJECTED from /Users/paulkindschi/pauls flutter/oetzu/android/app/src/main/AndroidManifest.xml
 	tools:overrideLibrary
@@ -333,6 +338,14 @@ ADDED from [:google_mobile_ads] /Users/paulkindschi/pauls flutter/oetzu/build/go
 		ADDED from [:google_mobile_ads] /Users/paulkindschi/pauls flutter/oetzu/build/google_mobile_ads/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-33
 	android:name
 		ADDED from [:google_mobile_ads] /Users/paulkindschi/pauls flutter/oetzu/build/google_mobile_ads/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-61
+activity#io.flutter.plugins.urllauncher.WebViewActivity
+ADDED from [:url_launcher_android] /Users/paulkindschi/pauls flutter/oetzu/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-13:74
+	android:exported
+		ADDED from [:url_launcher_android] /Users/paulkindschi/pauls flutter/oetzu/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-37
+	android:theme
+		ADDED from [:url_launcher_android] /Users/paulkindschi/pauls flutter/oetzu/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-71
+	android:name
+		ADDED from [:url_launcher_android] /Users/paulkindschi/pauls flutter/oetzu/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-74
 uses-library#android.ext.adservices
 ADDED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/paulkindschi/.gradle/caches/transforms-3/481892d44f287f72dbac3fc60244fb2e/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:23:9-25:40
 	android:required
@@ -460,6 +473,36 @@ ADDED from [com.google.android.gms:play-services-basement:18.2.0] /Users/paulkin
 		ADDED from [com.google.android.gms:play-services-basement:18.2.0] /Users/paulkindschi/.gradle/caches/transforms-3/04043c2d558b238081f552f5737568ee/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:23:13-66
 	android:name
 		ADDED from [com.google.android.gms:play-services-basement:18.2.0] /Users/paulkindschi/.gradle/caches/transforms-3/04043c2d558b238081f552f5737568ee/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:22:13-58
+intent#action:name:android.media.browse.MediaBrowserService
+ADDED from [androidx.media2:media2-session:1.2.1] /Users/paulkindschi/.gradle/caches/transforms-3/cb8e94b959fbe467b1577bec3d0fc97e/transformed/jetified-media2-session-1.2.1/AndroidManifest.xml:25:9-27:18
+action#android.media.browse.MediaBrowserService
+ADDED from [androidx.media2:media2-session:1.2.1] /Users/paulkindschi/.gradle/caches/transforms-3/cb8e94b959fbe467b1577bec3d0fc97e/transformed/jetified-media2-session-1.2.1/AndroidManifest.xml:26:13-79
+	android:name
+		ADDED from [androidx.media2:media2-session:1.2.1] /Users/paulkindschi/.gradle/caches/transforms-3/cb8e94b959fbe467b1577bec3d0fc97e/transformed/jetified-media2-session-1.2.1/AndroidManifest.xml:26:21-76
+intent#action:name:androidx.media2.session.MediaSessionService
+ADDED from [androidx.media2:media2-session:1.2.1] /Users/paulkindschi/.gradle/caches/transforms-3/cb8e94b959fbe467b1577bec3d0fc97e/transformed/jetified-media2-session-1.2.1/AndroidManifest.xml:28:9-30:18
+action#androidx.media2.session.MediaSessionService
+ADDED from [androidx.media2:media2-session:1.2.1] /Users/paulkindschi/.gradle/caches/transforms-3/cb8e94b959fbe467b1577bec3d0fc97e/transformed/jetified-media2-session-1.2.1/AndroidManifest.xml:29:13-82
+	android:name
+		ADDED from [androidx.media2:media2-session:1.2.1] /Users/paulkindschi/.gradle/caches/transforms-3/cb8e94b959fbe467b1577bec3d0fc97e/transformed/jetified-media2-session-1.2.1/AndroidManifest.xml:29:21-79
+intent#action:name:androidx.media2.session.MediaLibraryService
+ADDED from [androidx.media2:media2-session:1.2.1] /Users/paulkindschi/.gradle/caches/transforms-3/cb8e94b959fbe467b1577bec3d0fc97e/transformed/jetified-media2-session-1.2.1/AndroidManifest.xml:31:9-33:18
+action#androidx.media2.session.MediaLibraryService
+ADDED from [androidx.media2:media2-session:1.2.1] /Users/paulkindschi/.gradle/caches/transforms-3/cb8e94b959fbe467b1577bec3d0fc97e/transformed/jetified-media2-session-1.2.1/AndroidManifest.xml:32:13-82
+	android:name
+		ADDED from [androidx.media2:media2-session:1.2.1] /Users/paulkindschi/.gradle/caches/transforms-3/cb8e94b959fbe467b1577bec3d0fc97e/transformed/jetified-media2-session-1.2.1/AndroidManifest.xml:32:21-79
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0-beta04] /Users/paulkindschi/.gradle/caches/transforms-3/87da41db39e09187ba992a68ecbb6aeb/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/paulkindschi/.gradle/caches/transforms-3/87da41db39e09187ba992a68ecbb6aeb/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/paulkindschi/.gradle/caches/transforms-3/87da41db39e09187ba992a68ecbb6aeb/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0-beta04] /Users/paulkindschi/.gradle/caches/transforms-3/87da41db39e09187ba992a68ecbb6aeb/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/paulkindschi/.gradle/caches/transforms-3/87da41db39e09187ba992a68ecbb6aeb/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/paulkindschi/.gradle/caches/transforms-3/87da41db39e09187ba992a68ecbb6aeb/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
 uses-permission#android.permission.FOREGROUND_SERVICE
 ADDED from [androidx.work:work-runtime:2.7.0] /Users/paulkindschi/.gradle/caches/transforms-3/cce52f8753c7932edead92f0f35b1ffe/transformed/work-runtime-2.7.0/AndroidManifest.xml:28:5-77
 	android:name
@@ -684,36 +727,26 @@ action#androidx.work.diagnostics.REQUEST_DIAGNOSTICS
 ADDED from [androidx.work:work-runtime:2.7.0] /Users/paulkindschi/.gradle/caches/transforms-3/cce52f8753c7932edead92f0f35b1ffe/transformed/work-runtime-2.7.0/AndroidManifest.xml:140:17-88
 	android:name
 		ADDED from [androidx.work:work-runtime:2.7.0] /Users/paulkindschi/.gradle/caches/transforms-3/cce52f8753c7932edead92f0f35b1ffe/transformed/work-runtime-2.7.0/AndroidManifest.xml:140:25-85
-intent#action:name:android.media.browse.MediaBrowserService
-ADDED from [androidx.media2:media2-session:1.2.1] /Users/paulkindschi/.gradle/caches/transforms-3/cb8e94b959fbe467b1577bec3d0fc97e/transformed/jetified-media2-session-1.2.1/AndroidManifest.xml:25:9-27:18
-action#android.media.browse.MediaBrowserService
-ADDED from [androidx.media2:media2-session:1.2.1] /Users/paulkindschi/.gradle/caches/transforms-3/cb8e94b959fbe467b1577bec3d0fc97e/transformed/jetified-media2-session-1.2.1/AndroidManifest.xml:26:13-79
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.10.1] /Users/paulkindschi/.gradle/caches/transforms-3/2364e86895172849ce70bd47a99e09e1/transformed/core-1.10.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.10.1] /Users/paulkindschi/.gradle/caches/transforms-3/2364e86895172849ce70bd47a99e09e1/transformed/core-1.10.1/AndroidManifest.xml:24:9-44
 	android:name
-		ADDED from [androidx.media2:media2-session:1.2.1] /Users/paulkindschi/.gradle/caches/transforms-3/cb8e94b959fbe467b1577bec3d0fc97e/transformed/jetified-media2-session-1.2.1/AndroidManifest.xml:26:21-76
-intent#action:name:androidx.media2.session.MediaSessionService
-ADDED from [androidx.media2:media2-session:1.2.1] /Users/paulkindschi/.gradle/caches/transforms-3/cb8e94b959fbe467b1577bec3d0fc97e/transformed/jetified-media2-session-1.2.1/AndroidManifest.xml:28:9-30:18
-action#androidx.media2.session.MediaSessionService
-ADDED from [androidx.media2:media2-session:1.2.1] /Users/paulkindschi/.gradle/caches/transforms-3/cb8e94b959fbe467b1577bec3d0fc97e/transformed/jetified-media2-session-1.2.1/AndroidManifest.xml:29:13-82
+		ADDED from [androidx.core:core:1.10.1] /Users/paulkindschi/.gradle/caches/transforms-3/2364e86895172849ce70bd47a99e09e1/transformed/core-1.10.1/AndroidManifest.xml:23:9-81
+permission#com.paulsgames.oetzu.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.10.1] /Users/paulkindschi/.gradle/caches/transforms-3/2364e86895172849ce70bd47a99e09e1/transformed/core-1.10.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.10.1] /Users/paulkindschi/.gradle/caches/transforms-3/2364e86895172849ce70bd47a99e09e1/transformed/core-1.10.1/AndroidManifest.xml:24:9-44
 	android:name
-		ADDED from [androidx.media2:media2-session:1.2.1] /Users/paulkindschi/.gradle/caches/transforms-3/cb8e94b959fbe467b1577bec3d0fc97e/transformed/jetified-media2-session-1.2.1/AndroidManifest.xml:29:21-79
-intent#action:name:androidx.media2.session.MediaLibraryService
-ADDED from [androidx.media2:media2-session:1.2.1] /Users/paulkindschi/.gradle/caches/transforms-3/cb8e94b959fbe467b1577bec3d0fc97e/transformed/jetified-media2-session-1.2.1/AndroidManifest.xml:31:9-33:18
-action#androidx.media2.session.MediaLibraryService
-ADDED from [androidx.media2:media2-session:1.2.1] /Users/paulkindschi/.gradle/caches/transforms-3/cb8e94b959fbe467b1577bec3d0fc97e/transformed/jetified-media2-session-1.2.1/AndroidManifest.xml:32:13-82
+		ADDED from [androidx.core:core:1.10.1] /Users/paulkindschi/.gradle/caches/transforms-3/2364e86895172849ce70bd47a99e09e1/transformed/core-1.10.1/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.10.1] /Users/paulkindschi/.gradle/caches/transforms-3/2364e86895172849ce70bd47a99e09e1/transformed/core-1.10.1/AndroidManifest.xml:26:5-97
 	android:name
-		ADDED from [androidx.media2:media2-session:1.2.1] /Users/paulkindschi/.gradle/caches/transforms-3/cb8e94b959fbe467b1577bec3d0fc97e/transformed/jetified-media2-session-1.2.1/AndroidManifest.xml:32:21-79
-uses-library#androidx.window.extensions
-ADDED from [androidx.window:window:1.0.0-beta04] /Users/paulkindschi/.gradle/caches/transforms-3/87da41db39e09187ba992a68ecbb6aeb/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
-	android:required
-		ADDED from [androidx.window:window:1.0.0-beta04] /Users/paulkindschi/.gradle/caches/transforms-3/87da41db39e09187ba992a68ecbb6aeb/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+		ADDED from [androidx.core:core:1.10.1] /Users/paulkindschi/.gradle/caches/transforms-3/2364e86895172849ce70bd47a99e09e1/transformed/core-1.10.1/AndroidManifest.xml:26:22-94
+uses-permission#com.paulsgames.oetzu.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.10.1] /Users/paulkindschi/.gradle/caches/transforms-3/2364e86895172849ce70bd47a99e09e1/transformed/core-1.10.1/AndroidManifest.xml:26:5-97
 	android:name
-		ADDED from [androidx.window:window:1.0.0-beta04] /Users/paulkindschi/.gradle/caches/transforms-3/87da41db39e09187ba992a68ecbb6aeb/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
-uses-library#androidx.window.sidecar
-ADDED from [androidx.window:window:1.0.0-beta04] /Users/paulkindschi/.gradle/caches/transforms-3/87da41db39e09187ba992a68ecbb6aeb/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
-	android:required
-		ADDED from [androidx.window:window:1.0.0-beta04] /Users/paulkindschi/.gradle/caches/transforms-3/87da41db39e09187ba992a68ecbb6aeb/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
-	android:name
-		ADDED from [androidx.window:window:1.0.0-beta04] /Users/paulkindschi/.gradle/caches/transforms-3/87da41db39e09187ba992a68ecbb6aeb/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+		ADDED from [androidx.core:core:1.10.1] /Users/paulkindschi/.gradle/caches/transforms-3/2364e86895172849ce70bd47a99e09e1/transformed/core-1.10.1/AndroidManifest.xml:26:22-94
 meta-data#androidx.lifecycle.ProcessLifecycleInitializer
 ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/paulkindschi/.gradle/caches/transforms-3/c445ef894fd2475811e54a0edd9e9da7/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
 	android:value
